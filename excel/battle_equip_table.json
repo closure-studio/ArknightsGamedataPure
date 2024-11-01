@@ -12527,6 +12527,265 @@
       }
     ]
   },
+  "uniequip_002_talr": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "TRAIT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "interval",
+                      "value": 3.0
+                    },
+                    {
+                      "key": "cost",
+                      "value": -2.0
+                    }
+                  ],
+                  "overrideDescripton": "再部署时间<@ba.kw>减少</>，撤退时不返还<@ba.kw>部署费用</>，在场时每3秒消耗<@ba.kw>2</>点部署费用（不足时自动撤退）",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 120.0
+          },
+          {
+            "key": "atk",
+            "value": 50.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "TRAIT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "interval",
+                      "value": 3.0
+                    },
+                    {
+                      "key": "cost",
+                      "value": -2.0
+                    }
+                  ],
+                  "overrideDescripton": "再部署时间<@ba.kw>减少</>，撤退时不返还<@ba.kw>部署费用</>，在场时每3秒消耗<@ba.kw>2</>点部署费用（不足时自动撤退）",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "攻击未被自身阻挡的敌人时，自身造成的伤害+27%",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "谨慎择客",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.27
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "攻击未被自身阻挡的敌人时，自身造成的伤害+32%<@ba.talpu>（+5%）</>",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "谨慎择客",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.32
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 180.0
+          },
+          {
+            "key": "atk",
+            "value": 62.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "TRAIT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "interval",
+                      "value": 3.0
+                    },
+                    {
+                      "key": "cost",
+                      "value": -2.0
+                    }
+                  ],
+                  "overrideDescripton": "再部署时间<@ba.kw>减少</>，撤退时不返还<@ba.kw>部署费用</>，在场时每3秒消耗<@ba.kw>2</>点部署费用（不足时自动撤退）",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "攻击未被自身阻挡的敌人时，自身造成的伤害+30%",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "谨慎择客",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.3
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "攻击未被自身阻挡的敌人时，自身造成的伤害+35%<@ba.talpu>（+5%）</>",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "谨慎择客",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.35
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 220.0
+          },
+          {
+            "key": "atk",
+            "value": 70.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
   "uniequip_002_strong": {
     "phases": [
       {
@@ -99403,6 +99662,2669 @@
             }
           ]
         }
+      }
+    ]
+  },
+  "uniequip_002_whitw2": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "TRAIT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "init_atk_scale",
+                      "value": 0.35
+                    },
+                    {
+                      "key": "delta_atk_scale",
+                      "value": 0.15
+                    },
+                    {
+                      "key": "max_atk_scale",
+                      "value": 1.1
+                    },
+                    {
+                      "key": "max_stack_cnt",
+                      "value": 5.0
+                    }
+                  ],
+                  "overrideDescripton": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（单元初始伤害提高，最高造成干员110%攻击力的伤害）",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 95.0
+          },
+          {
+            "key": "atk",
+            "value": 20.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "TRAIT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "init_atk_scale",
+                      "value": 0.35
+                    },
+                    {
+                      "key": "delta_atk_scale",
+                      "value": 0.15
+                    },
+                    {
+                      "key": "max_atk_scale",
+                      "value": 1.1
+                    },
+                    {
+                      "key": "max_stack_cnt",
+                      "value": 5.0
+                    }
+                  ],
+                  "overrideDescripton": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（单元初始伤害提高，最高造成干员110%攻击力的伤害）",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "编入队伍时所有【叙拉古】干员的初始技力+5，且首次触发技能后攻击速度+6",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "叙拉古的荣幸",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "sp",
+                      "value": 5.0
+                    },
+                    {
+                      "key": "attack_speed",
+                      "value": 6.0
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "编入队伍时所有【叙拉古】干员的初始技力+6<@ba.talpu>（+1）</>，且首次触发技能后攻击速度+6",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "2",
+                  "name": "叙拉古的荣幸",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "sp",
+                      "value": 6.0
+                    },
+                    {
+                      "key": "attack_speed",
+                      "value": 6.0
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 130.0
+          },
+          {
+            "key": "atk",
+            "value": 29.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "TRAIT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "init_atk_scale",
+                      "value": 0.35
+                    },
+                    {
+                      "key": "delta_atk_scale",
+                      "value": 0.15
+                    },
+                    {
+                      "key": "max_atk_scale",
+                      "value": 1.1
+                    },
+                    {
+                      "key": "max_stack_cnt",
+                      "value": 5.0
+                    }
+                  ],
+                  "overrideDescripton": "操作<@ba.kw>浮游单元</>造成<@ba.kw>法术伤害</>\\n单元攻击同一敌人伤害提升（单元初始伤害提高，最高造成干员110%攻击力的伤害）",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "编入队伍时所有【叙拉古】干员的初始技力+5，且首次触发技能后攻击速度+10",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "叙拉古的荣幸",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "sp",
+                      "value": 5.0
+                    },
+                    {
+                      "key": "attack_speed",
+                      "value": 10.0
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "编入队伍时所有【叙拉古】干员的初始技力+6<@ba.talpu>（+1）</>，且首次触发技能后攻击速度+10",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "2",
+                  "name": "叙拉古的荣幸",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "sp",
+                      "value": 6.0
+                    },
+                    {
+                      "key": "attack_speed",
+                      "value": 10.0
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 160.0
+          },
+          {
+            "key": "atk",
+            "value": 33.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_crosly": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "crosly_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "撤退时返还<@ba.kw>大量</>该次部署费用",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "withdraw_cost_recover_ratio",
+                      "value": 0.8
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 90.0
+          },
+          {
+            "key": "atk",
+            "value": 34.0
+          },
+          {
+            "key": "def",
+            "value": 23.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "crosly_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "撤退时返还<@ba.kw>大量</>该次部署费用",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "withdraw_cost_recover_ratio",
+                      "value": 0.8
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "技能持续期间在自身周围产生烟雾，使其中的地面敌人物理与法术命中率-23%",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "t1",
+                  "name": "吞咽苦厄",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_hitrate_physical",
+                      "value": -0.23
+                    },
+                    {
+                      "key": "damage_hitrate_magical",
+                      "value": -0.23
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 112.0
+          },
+          {
+            "key": "atk",
+            "value": 40.0
+          },
+          {
+            "key": "def",
+            "value": 27.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "crosly_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "撤退时返还<@ba.kw>大量</>该次部署费用",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "withdraw_cost_recover_ratio",
+                      "value": 0.8
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "技能持续期间在自身周围产生烟雾，使其中的地面敌人物理与法术命中率-25%",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "t1",
+                  "name": "吞咽苦厄",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_hitrate_physical",
+                      "value": -0.25
+                    },
+                    {
+                      "key": "damage_hitrate_magical",
+                      "value": -0.25
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 130.0
+          },
+          {
+            "key": "atk",
+            "value": 45.0
+          },
+          {
+            "key": "def",
+            "value": 30.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_vulpis": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "vulpis_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.08
+                    },
+                    {
+                      "key": "def",
+                      "value": 0.08
+                    }
+                  ],
+                  "overrideDescripton": "能够阻挡两个敌人，阻挡敌人时攻击力和防御力各+8％",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 175.0
+          },
+          {
+            "key": "atk",
+            "value": 35.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "vulpis_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.08
+                    },
+                    {
+                      "key": "def",
+                      "value": 0.08
+                    }
+                  ],
+                  "overrideDescripton": "能够阻挡两个敌人，阻挡敌人时攻击力和防御力各+8％",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成的伤害时额外造成攻击力 35%的法术伤害",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "追凶",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk_scale",
+                      "value": 0.35
+                    },
+                    {
+                      "key": "interval",
+                      "value": 10.0
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 240.0
+          },
+          {
+            "key": "atk",
+            "value": 40.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "vulpis_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.08
+                    },
+                    {
+                      "key": "def",
+                      "value": 0.08
+                    }
+                  ],
+                  "overrideDescripton": "能够阻挡两个敌人，阻挡敌人时攻击力和防御力各+8％",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成的伤害时额外造成攻击力 40%的法术伤害",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "追凶",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk_scale",
+                      "value": 0.4
+                    },
+                    {
+                      "key": "interval",
+                      "value": 10.0
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 300.0
+          },
+          {
+            "key": "atk",
+            "value": 45.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_cello": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "cello_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.18
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 135.0
+          },
+          {
+            "key": "atk",
+            "value": 28.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "cello_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.18
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "cello_equip_1_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "使攻击范围内敌人受到的<$ba.dt.apoptosis2>凋亡损伤</>提高28%，<$ba.dt.apoptosis2>凋亡损伤</>爆发期间受到3%的<$ba.elementfragile>元素脆弱</>",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "精神逆构",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.03
+                    },
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.28
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "使攻击范围内敌人受到的<$ba.dt.apoptosis2>凋亡损伤</>提高30%<@ba.talpu>（+2%）</>，<$ba.dt.apoptosis2>凋亡损伤</>爆发期间受到3%的<$ba.elementfragile>元素脆弱</>",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "2",
+                  "name": "精神逆构",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.03
+                    },
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.3
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 175.0
+          },
+          {
+            "key": "atk",
+            "value": 35.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "cello_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.18
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "cello_equip_1_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "使攻击范围内敌人受到的<$ba.dt.apoptosis2>凋亡损伤</>提高33%，<$ba.dt.apoptosis2>凋亡损伤</>爆发期间受到5%的<$ba.elementfragile>元素脆弱</>",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "精神逆构",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.05
+                    },
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.33
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "使攻击范围内敌人受到的<$ba.dt.apoptosis2>凋亡损伤</>提高35%<@ba.talpu>（+2%）</>，<$ba.dt.apoptosis2>凋亡损伤</>爆发期间受到5%的<$ba.elementfragile>元素脆弱</>",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "2",
+                  "name": "精神逆构",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.05
+                    },
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.35
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 210.0
+          },
+          {
+            "key": "atk",
+            "value": 40.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_threye": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "threye_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.18
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 95.0
+          },
+          {
+            "key": "atk",
+            "value": 24.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "threye_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.18
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "threye_equip_1_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "攻击力+9%，攻击速度+6，攻击<$ba.dt.apoptosis2>凋亡损伤</>爆发期间的目标时使其<$ba.sluggish>停顿</>0.8秒",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "隐居者",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.09
+                    },
+                    {
+                      "key": "attack_speed",
+                      "value": 6.0
+                    },
+                    {
+                      "key": "sluggish",
+                      "value": 0.8
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "攻击力+10%<@ba.talpu>（+1%）</>，攻击速度+7<@ba.talpu>（+1）</>，攻击<$ba.dt.apoptosis2>凋亡损伤</>爆发期间的目标时使其<$ba.sluggish>停顿</>0.8秒",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "隐居者",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.1
+                    },
+                    {
+                      "key": "attack_speed",
+                      "value": 7.0
+                    },
+                    {
+                      "key": "sluggish",
+                      "value": 0.8
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 125.0
+          },
+          {
+            "key": "atk",
+            "value": 29.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "threye_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.18
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "threye_equip_1_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "攻击力+11%，攻击速度+6，攻击<$ba.dt.apoptosis2>凋亡损伤</>爆发期间的目标时使其<$ba.sluggish>停顿</>1.2秒",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "隐居者",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.11
+                    },
+                    {
+                      "key": "attack_speed",
+                      "value": 6.0
+                    },
+                    {
+                      "key": "sluggish",
+                      "value": 1.2
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "攻击力+12%<@ba.talpu>（+1%）</>，攻击速度+7<@ba.talpu>（+1）</>，攻击<$ba.dt.apoptosis2>凋亡损伤</>爆发期间的目标时使其<$ba.sluggish>停顿</>1.2秒",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "隐居者",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.12
+                    },
+                    {
+                      "key": "attack_speed",
+                      "value": 7.0
+                    },
+                    {
+                      "key": "sluggish",
+                      "value": 1.2
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 145.0
+          },
+          {
+            "key": "atk",
+            "value": 32.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_bobb": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "bobb_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.18
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 25.0
+          },
+          {
+            "key": "def",
+            "value": 23.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "bobb_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.18
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "对每个敌人首次攻击时，使其在接下来的5秒内每秒受到相当于攻击力17%的<$ba.dt.burning2>灼燃损伤</>",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "焦点诱导",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "attack@ep_damage_ratio_talent",
+                      "value": 0.17
+                    },
+                    {
+                      "key": "attack@dmg_duration",
+                      "value": 5.0
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "对每个敌人首次攻击时，使其在接下来的5秒内每秒受到相当于攻击力19%<@ba.talpu>（+2%）</>的<$ba.dt.burning2>灼燃损伤</>",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "焦点诱导",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "attack@ep_damage_ratio_talent",
+                      "value": 0.19
+                    },
+                    {
+                      "key": "attack@dmg_duration",
+                      "value": 5.0
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 30.0
+          },
+          {
+            "key": "def",
+            "value": 27.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "bobb_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "对精英和领袖敌人造成的元素损伤提升<@ba.kw>18%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.18
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "对每个敌人首次攻击时，使其在接下来的5秒内每秒受到相当于攻击力18%的<$ba.dt.burning2>灼燃损伤</>",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "焦点诱导",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "attack@ep_damage_ratio_talent",
+                      "value": 0.18
+                    },
+                    {
+                      "key": "attack@dmg_duration",
+                      "value": 5.0
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "对每个敌人首次攻击时，使其在接下来的5秒内每秒受到相当于攻击力20%<@ba.talpu>（+2%）</>的<$ba.dt.burning2>灼燃损伤</>",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "焦点诱导",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "attack@ep_damage_ratio_talent",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "attack@dmg_duration",
+                      "value": 5.0
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 35.0
+          },
+          {
+            "key": "def",
+            "value": 30.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_003_lessng": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "lessng_equip_2_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-{value:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>（单次部署只触发1次）",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "attack_speed",
+                      "value": 30.0
+                    },
+                    {
+                      "key": "max_hp",
+                      "value": 0.4
+                    },
+                    {
+                      "key": "hp_ratio",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "value",
+                      "value": 0.6
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 300.0
+          },
+          {
+            "key": "atk",
+            "value": 55.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "lessng_equip_2_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-{value:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>（单次部署只触发1次）",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "attack_speed",
+                      "value": 30.0
+                    },
+                    {
+                      "key": "max_hp",
+                      "value": 0.4
+                    },
+                    {
+                      "key": "hp_ratio",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "value",
+                      "value": 0.6
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "lessng_equip_2_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "def_penetrate",
+                      "value": 0.08
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "阻挡时，受到来自非自身阻挡敌人的物理和法术伤害降低35%；攻击自身阻挡的敌人时，无视目标8%的防御力",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "苦痛专注",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.35
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 390.0
+          },
+          {
+            "key": "atk",
+            "value": 70.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "lessng_equip_2_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "被击倒时不撤退且回复所有生命但生命上限<@ba.vdown>-{value:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>（单次部署只触发1次）",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "attack_speed",
+                      "value": 30.0
+                    },
+                    {
+                      "key": "max_hp",
+                      "value": 0.4
+                    },
+                    {
+                      "key": "hp_ratio",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "value",
+                      "value": 0.6
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "lessng_equip_2_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "def_penetrate",
+                      "value": 0.12
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "阻挡时，受到来自非自身阻挡敌人的物理和法术伤害降低40%；攻击自身阻挡的敌人时，无视目标12%的防御力",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "苦痛专注",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.4
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 450.0
+          },
+          {
+            "key": "atk",
+            "value": 80.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_003_rosmon": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "在<@ba.kw>集成战略</>中，攻击额外造成<@ba.kw>一次</>攻击力<@ba.kw>100%</>的法术伤害",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "rosmon_equip_2_1_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "equip_atk_scale",
+                      "value": 1.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 45.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 5.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "在<@ba.kw>集成战略</>中，攻击额外造成<@ba.kw>一次</>攻击力<@ba.kw>100%</>的法术伤害",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "OVERWRITE_BATTLE_DATA",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "game_tag_meta",
+                      "valueStr": "roguelike"
+                    },
+                    {
+                      "key": "extra_profession",
+                      "valueStr": "caster"
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "rosmon_equip_2_2_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "equip_atk_scale",
+                      "value": 1.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "rosmon_equip_2_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "部署后随机选择一名在场的【术师】干员，自身和其的攻击力+8%；在<@ba.kw>集成战略</>中，迷迭香可同时享受【术师】收藏品加成，部署【狙击】【术师】干员时在该干员范围内召唤1个战术装备",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": "感知稳定",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [],
+                  "tokenKey": "token_10012_rosmon_shield",
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 70.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 6.0
+          }
+        ],
+        "tokenAttributeBlackboard": {
+          "token_10012_rosmon_shield": [
+            {
+              "key": "max_deploy_count",
+              "value": 18.0
+            }
+          ]
+        }
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "在<@ba.kw>集成战略</>中，攻击额外造成<@ba.kw>一次</>攻击力<@ba.kw>100%</>的法术伤害",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "rosmon_equip_2_3_p3",
+            "target": "TRAIT",
+            "isToken": true,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": -400.0
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": -20.0
+                    },
+                    {
+                      "key": "stun",
+                      "value": 5.0
+                    }
+                  ],
+                  "overrideDescripton": "能够阻挡两个敌人，出现造成的晕眩时间延长至5秒，降低阻挡敌人防御力的效果改为使周围8格的地面敌人防御力<@ba.kw>-400</>，法术抗性<@ba.kw>-20</>（不叠加）",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "OVERWRITE_BATTLE_DATA",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "game_tag_meta",
+                      "valueStr": "roguelike"
+                    },
+                    {
+                      "key": "extra_profession",
+                      "valueStr": "caster"
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "rosmon_equip_2_3_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "equip_atk_scale",
+                      "value": 1.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "rosmon_equip_2_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "部署后随机选择一名在场的【术师】干员，自身和其的攻击力+8%；在<@ba.kw>集成战略</>中，迷迭香可同时享受【术师】收藏品加成，部署【狙击】【术师】干员时在该干员范围内召唤1个具有特殊效果且属性更强的战术装备",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": "感知稳定",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [],
+                  "tokenKey": "token_10012_rosmon_shield",
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": true,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "duration",
+                      "value": 25.0
+                    },
+                    {
+                      "key": "def",
+                      "value": 0.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 90.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 7.0
+          }
+        ],
+        "tokenAttributeBlackboard": {
+          "token_10012_rosmon_shield": [
+            {
+              "key": "max_hp",
+              "value": 1750.0
+            },
+            {
+              "key": "def",
+              "value": 330.0
+            },
+            {
+              "key": "magic_resistance",
+              "value": 35.0
+            },
+            {
+              "key": "max_deploy_count",
+              "value": 18.0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "uniequip_004_aglina": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "在<@ba.kw>集成战略</>中，在场时全场敌人重量额外-1",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "aglina_equip_3_1_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "mass_level",
+                      "value": -1.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 35.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 5.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "在<@ba.kw>集成战略</>中，在场时全场敌人重量额外-1",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "aglina_equip_3_2_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "mass_level",
+                      "value": -1.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "aglina_equip_3_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "全场友方单位攻速+7；在<@ba.kw>集成战略</>中，在场时全场处于失衡、<$ba.levitate>浮空</>状态的敌人每0.5秒受到安洁莉娜40%攻击力的法术伤害",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": "加速力场",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "interval",
+                      "value": 0.5
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 0.4
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "全场友方单位攻速+8<@ba.talpu>（+1）</>；在<@ba.kw>集成战略</>中，在场时全场处于失衡、<$ba.levitate>浮空</>状态的敌人每0.5秒受到安洁莉娜40%攻击力的法术伤害",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 5,
+                  "prefabKey": "10_root",
+                  "name": "加速力场",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "interval",
+                      "value": 0.5
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 0.4
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 51.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 6.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "在<@ba.kw>集成战略</>中，在场时全场敌人重量额外-1",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "aglina_equip_3_3_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "mass_level",
+                      "value": -1.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "aglina_equip_3_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "全场友方单位攻速+7；在<@ba.kw>集成战略</>中，在场时全场处于失衡、<$ba.levitate>浮空</>状态的敌人每0.5秒受到安洁莉娜60%攻击力的法术伤害；安洁莉娜开启技能期间攻击使目标<$ba.levitate>浮空</>3秒，且攻击<$ba.levitate>浮空</>状态目标时使其<$ba.levitate>浮空</>时间刷新",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": "加速力场",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "interval",
+                      "value": 0.5
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 0.6
+                    },
+                    {
+                      "key": "duration",
+                      "value": 3.0
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "全场友方单位攻速+8<@ba.talpu>（+1）</>；在<@ba.kw>集成战略</>中，在场时全场处于失衡、<$ba.levitate>浮空</>状态的敌人每0.5秒受到安洁莉娜60%攻击力的法术伤害；安洁莉娜开启技能期间攻击使目标<$ba.levitate>浮空</>3秒，且攻击<$ba.levitate>浮空</>状态目标时使其<$ba.levitate>浮空</>时间刷新",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 5,
+                  "prefabKey": "10_root",
+                  "name": "加速力场",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "interval",
+                      "value": 0.5
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 0.6
+                    },
+                    {
+                      "key": "duration",
+                      "value": 3.0
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 65.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 7.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
       }
     ]
   }
