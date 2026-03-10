@@ -10,9 +10,11 @@
     "isTrainingLevel": true,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
-    "configBlackBoard": null
+    "configBlackBoard": null,
+    "enemyTauntLevelPow": 0
   },
   "levelId": null,
   "mapId": null,
@@ -1082,59 +1084,52 @@
     "blockEdges": null,
     "tags": null,
     "effects": null,
-    "layerRects": null,
-    "width": 13,
-    "height": 8
+    "layerRects": null
   },
   "tilesDisallowToLocate": [],
   "runes": [
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "char_attribute_mul",
       "professionMask": 516,
       "buildableMask": 3,
       "blackboard": [
         {
           "key": "max_hp",
-          "value": 3.7,
-          "valueStr": null
+          "value": 3.7
         },
         {
           "key": "atk",
-          "value": 3.0,
-          "valueStr": null
+          "value": 3.0
         },
         {
           "key": "def",
-          "value": 1.2,
-          "valueStr": null
+          "value": 1.2
         }
       ]
     },
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "char_attribute_mul",
       "professionMask": 512,
       "buildableMask": 3,
       "blackboard": [
         {
           "key": "max_hp",
-          "value": 1.5,
-          "valueStr": null
+          "value": 1.5
         },
         {
           "key": "atk",
-          "value": 1.0,
-          "valueStr": null
+          "value": 1.0
         },
         {
           "key": "def",
-          "value": 1.0,
-          "valueStr": null
+          "value": 1.0
         }
       ]
     }
   ],
+  "optionalRunes": null,
   "globalBuffs": null,
   "routes": [
     {
@@ -1457,11 +1452,126 @@
       "visitEveryNodeCenter": false,
       "visitEveryCheckPoint": false
     },
-    null,
-    null,
-    null,
-    null,
-    null,
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
     {
       "motionMode": 0,
       "startPosition": {
@@ -1486,7 +1596,30 @@
       "visitEveryNodeCenter": false,
       "visitEveryCheckPoint": false
     },
-    null,
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
     {
       "motionMode": 0,
       "startPosition": {
@@ -1554,7 +1687,30 @@
       "visitEveryNodeCenter": false,
       "visitEveryCheckPoint": false
     },
-    null,
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
     {
       "motionMode": 0,
       "startPosition": {
@@ -1594,7 +1750,30 @@
       "visitEveryNodeCenter": false,
       "visitEveryCheckPoint": false
     },
-    null
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    }
   ],
   "extraRoutes": [],
   "enemies": [],
@@ -1693,6 +1872,26 @@
             "m_defined": false,
             "m_value": 0
           },
+          "epDamageResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitratePhysical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -1712,7 +1911,35 @@
           "levitateImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
+            "m_defined": false,
+            "m_value": false
           }
+        },
+        "applyWay": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "motion": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "enemyTags": {
+          "m_defined": false,
+          "m_value": null
         },
         "lifePointReduce": {
           "m_defined": false,
@@ -1734,6 +1961,10 @@
           "m_defined": false,
           "m_value": 0.0
         },
+        "notCountInTotal": {
+          "m_defined": false,
+          "m_value": false
+        },
         "talentBlackboard": null,
         "skills": [
           {
@@ -1745,23 +1976,19 @@
             "blackboard": [
               {
                 "key": "atk_scale",
-                "value": 1.5,
-                "valueStr": null
+                "value": 1.5
               },
               {
                 "key": "ep_damage_ratio",
-                "value": 0.1,
-                "valueStr": null
+                "value": 0.1
               },
               {
                 "key": "continuousdamage.projectile_life_time",
-                "value": 4.0,
-                "valueStr": null
+                "value": 4.0
               },
               {
                 "key": "continuousdamage.atk_scale",
-                "value": 0.2,
-                "valueStr": null
+                "value": 0.2
               }
             ]
           },
@@ -1774,8 +2001,7 @@
             "blackboard": [
               {
                 "key": "stun",
-                "value": 5.0,
-                "valueStr": null
+                "value": 5.0
               }
             ]
           }
@@ -1865,26 +2091,74 @@
             "m_defined": false,
             "m_value": 0
           },
-          "stunImmune": {
+          "epDamageResistance": {
             "m_defined": false,
-            "m_value": false
+            "m_value": 0.0
+          },
+          "epResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitratePhysical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": true,
+            "m_value": true
           },
           "silenceImmune": {
             "m_defined": true,
             "m_value": true
           },
           "sleepImmune": {
-            "m_defined": false,
-            "m_value": false
+            "m_defined": true,
+            "m_value": true
           },
           "frozenImmune": {
+            "m_defined": true,
+            "m_value": true
+          },
+          "levitateImmune": {
+            "m_defined": true,
+            "m_value": true
+          },
+          "disarmedCombatImmune": {
             "m_defined": false,
             "m_value": false
           },
-          "levitateImmune": {
+          "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
+        },
+        "applyWay": {
+          "m_defined": true,
+          "m_value": 3
+        },
+        "motion": {
+          "m_defined": true,
+          "m_value": 0
+        },
+        "enemyTags": {
+          "m_defined": true,
+          "m_value": null
         },
         "lifePointReduce": {
           "m_defined": true,
@@ -1906,111 +2180,94 @@
           "m_defined": false,
           "m_value": 0.0
         },
+        "notCountInTotal": {
+          "m_defined": false,
+          "m_value": false
+        },
         "talentBlackboard": [
           {
             "key": "Reborn.duration",
-            "value": 7.6,
-            "valueStr": null
+            "value": 7.6
           },
           {
             "key": "Reborn.rest_duration",
-            "value": 3.0,
-            "valueStr": null
+            "value": 3.0
           },
           {
             "key": "Reborn.stun",
-            "value": 5.0,
-            "valueStr": null
+            "value": 5.0
           },
           {
             "key": "Reborn.max_hp",
-            "value": 200000.0,
-            "valueStr": null
+            "value": 200000.0
           },
           {
             "key": "Reborn.atk",
-            "value": 200.0,
-            "valueStr": null
+            "value": 200.0
           },
           {
             "key": "TailCut.max_hp_ratio",
-            "value": 2.0,
-            "valueStr": null
+            "value": 2.0
           },
           {
             "key": "Stun.duration",
-            "value": 10.0,
-            "valueStr": null
+            "value": 10.0
           },
           {
             "key": "Stun.duration_2",
-            "value": 8.0,
-            "valueStr": null
+            "value": 8.0
           },
           {
             "key": "Stun.duration_3",
-            "value": 5.0,
-            "valueStr": null
+            "value": 5.0
           },
           {
             "key": "Stun.damage_scale",
-            "value": 2.0,
-            "valueStr": null
+            "value": 2.0
           },
           {
             "key": "SleepListener.check_point",
-            "value": 999.0,
-            "valueStr": null
+            "value": 999.0
           },
           {
             "key": "EpDamage.attack@ep_damage_ratio",
-            "value": 0.0,
-            "valueStr": null
+            "value": 0.0
           },
           {
             "key": "BornMode.mode",
-            "value": 2.0,
-            "valueStr": null
+            "value": 2.0
           },
           {
             "key": "Reborn.move_speed",
-            "value": 3.0,
-            "valueStr": null
+            "value": 3.0
           },
           {
             "key": "Reborn.atk_scale",
-            "value": 0.6,
-            "valueStr": null
+            "value": 0.6
           },
           {
             "key": "Reborn.ep_damage_ratio",
-            "value": 0.02,
-            "valueStr": null
+            "value": 0.02
           },
           {
             "key": "Reborn.continuousdamage.projectile_life_time",
-            "value": 4.0,
-            "valueStr": null
+            "value": 4.0
           },
           {
             "key": "Reborn.continuousdamage.atk_scale",
-            "value": 0.2,
-            "valueStr": null
+            "value": 0.2
           },
           {
             "key": "WeaknessUI.value",
-            "value": 0.0,
-            "valueStr": null
+            "value": 0.0
           },
           {
             "key": "DamageCounter.hp",
-            "value": 30000.0,
-            "valueStr": null
+            "value": 30000.0
           },
           {
             "key": "FlyMoveSpeed.move_speed",
-            "value": 0.0,
-            "valueStr": null
+            "value": 0.0
           }
         ],
         "skills": [
@@ -2023,8 +2280,7 @@
             "blackboard": [
               {
                 "key": "atk_scale",
-                "value": 1.2,
-                "valueStr": null
+                "value": 1.2
               }
             ]
           },
@@ -2037,8 +2293,7 @@
             "blackboard": [
               {
                 "key": "atk_scale",
-                "value": 0.6,
-                "valueStr": null
+                "value": 0.6
               }
             ]
           },
@@ -2051,8 +2306,7 @@
             "blackboard": [
               {
                 "key": "LandFireBall",
-                "value": 0.8,
-                "valueStr": null
+                "value": 0.8
               }
             ]
           },
@@ -2065,8 +2319,7 @@
             "blackboard": [
               {
                 "key": "stun",
-                "value": 10.0,
-                "valueStr": null
+                "value": 10.0
               }
             ]
           },
@@ -2079,23 +2332,19 @@
             "blackboard": [
               {
                 "key": "atk_scale",
-                "value": 0.8,
-                "valueStr": null
+                "value": 0.8
               },
               {
                 "key": "ep_damage_ratio",
-                "value": 0.03,
-                "valueStr": null
+                "value": 0.03
               },
               {
                 "key": "continuousdamage.projectile_life_time",
-                "value": 4.0,
-                "valueStr": null
+                "value": 4.0
               },
               {
                 "key": "continuousdamage.atk_scale",
-                "value": 0.2,
-                "valueStr": null
+                "value": 0.2
               }
             ]
           },
@@ -2108,8 +2357,7 @@
             "blackboard": [
               {
                 "key": "atk_scale",
-                "value": 1.3,
-                "valueStr": null
+                "value": 1.3
               }
             ]
           },
@@ -2122,8 +2370,7 @@
             "blackboard": [
               {
                 "key": "atk_scale",
-                "value": 0.9,
-                "valueStr": null
+                "value": 0.9
               }
             ]
           },
@@ -2136,23 +2383,19 @@
             "blackboard": [
               {
                 "key": "atk_scale",
-                "value": 1.0,
-                "valueStr": null
+                "value": 1.0
               },
               {
                 "key": "ep_damage_ratio",
-                "value": 0.1,
-                "valueStr": null
+                "value": 0.1
               },
               {
                 "key": "continuousdamage.projectile_life_time",
-                "value": 4.0,
-                "valueStr": null
+                "value": 4.0
               },
               {
                 "key": "continuousdamage.atk_scale",
-                "value": 0.2,
-                "valueStr": null
+                "value": 0.2
               }
             ]
           },
@@ -2165,23 +2408,19 @@
             "blackboard": [
               {
                 "key": "atk_scale",
-                "value": 1.5,
-                "valueStr": null
+                "value": 1.5
               },
               {
                 "key": "ep_damage_ratio",
-                "value": 0.1,
-                "valueStr": null
+                "value": 0.1
               },
               {
                 "key": "continuousdamage.projectile_life_time",
-                "value": 4.0,
-                "valueStr": null
+                "value": 4.0
               },
               {
                 "key": "continuousdamage.atk_scale",
-                "value": 0.2,
-                "valueStr": null
+                "value": 0.2
               }
             ]
           }
@@ -2215,8 +2454,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2234,8 +2479,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2253,8 +2504,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2272,15 +2529,19 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "advancedWaveTag": null,
-      "name": null
+      "advancedWaveTag": null
     },
     {
       "preDelay": 0.0,
@@ -2306,8 +2567,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 2,
@@ -2325,8 +2592,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 6,
@@ -2344,8 +2617,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 2,
@@ -2363,8 +2642,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 6,
@@ -2382,15 +2667,19 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "advancedWaveTag": null,
-      "name": null
+      "advancedWaveTag": null
     },
     {
       "preDelay": 0.0,
@@ -2416,8 +2705,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2435,15 +2730,19 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "advancedWaveTag": null,
-      "name": null
+      "advancedWaveTag": null
     },
     {
       "preDelay": 0.0,
@@ -2469,8 +2768,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2488,15 +2793,19 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "advancedWaveTag": null,
-      "name": null
+      "advancedWaveTag": null
     },
     {
       "preDelay": 0.0,
@@ -2522,8 +2831,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2541,8 +2856,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 2,
@@ -2560,15 +2881,19 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "advancedWaveTag": null,
-      "name": null
+      "advancedWaveTag": null
     }
   ],
   "branches": null,
@@ -2583,6 +2908,8 @@
         "hidden": true,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_500_noirc",
           "level": 30,
@@ -2605,6 +2932,8 @@
         "hidden": true,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_502_nblade",
           "level": 30,
@@ -2631,5 +2960,7 @@
   },
   "excludeCharIdList": null,
   "randomSeed": 346109273,
-  "operaConfig": null
+  "operaConfig": null,
+  "cameraPlugin": null,
+  "runtimeData": null
 }
