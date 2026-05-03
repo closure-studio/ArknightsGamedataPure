@@ -75,25 +75,15 @@ jobs:
     - name: Process game data
       run: node .github/scripts/process-data.js
 
-    - name: Configure AWS credentials
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
-        AWS_DEFAULT_REGION: auto
-      run: |
-        aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
-        aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
-        aws configure set default.region auto
-
     - name: Upload to Cloudflare R2
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
         AWS_DEFAULT_REGION: auto
       run: |
-        aws s3 cp processed/stage_table.json s3://${{ secrets.CLOUDFLARE_R2_BUCKET }}/stage_table.json --endpoint-url https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
-        aws s3 cp processed/item_table.json s3://${{ secrets.CLOUDFLARE_R2_BUCKET }}/item_table.json --endpoint-url https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
-        aws s3 cp processed/character_table.json s3://${{ secrets.CLOUDFLARE_R2_BUCKET }}/character_table.json --endpoint-url https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+        aws s3 cp processed/stage_table.json "s3://${{ secrets.CLOUDFLARE_R2_BUCKET }}/stage_table.json" --endpoint-url "https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com"
+        aws s3 cp processed/item_table.json "s3://${{ secrets.CLOUDFLARE_R2_BUCKET }}/item_table.json" --endpoint-url "https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com"
+        aws s3 cp processed/character_table.json "s3://${{ secrets.CLOUDFLARE_R2_BUCKET }}/character_table.json" --endpoint-url "https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com"
 
     - name: Send Upload Success Notification
       if: success()
