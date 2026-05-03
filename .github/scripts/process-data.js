@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const zlib = require('zlib');
 
 // 配置
 const CONFIG = {
@@ -12,20 +11,6 @@ const CONFIG = {
     character: 'character_table.json'
   }
 };
-
-// 压缩文件
-function compressFile(inputPath) {
-  const gzipPath = inputPath + '.gz';
-  const input = fs.readFileSync(inputPath);
-  const compressed = zlib.gzipSync(input, { level: 9 }); // 最高压缩级别
-  fs.writeFileSync(gzipPath, compressed);
-
-  const originalSize = (input.length / 1024).toFixed(2);
-  const compressedSize = (compressed.length / 1024).toFixed(2);
-  const ratio = ((1 - compressed.length / input.length) * 100).toFixed(2);
-
-  console.log(`  ✓ 压缩: ${originalSize} KB → ${compressedSize} KB (节省 ${ratio}%)`);
-}
 
 // 主函数
 async function main() {
@@ -121,9 +106,6 @@ async function processStageTable() {
     console.log(`  ✓ 保留: ${totalCount - filteredCount}`);
     console.log(`  ✓ 输出大小: ${outputSize} MB`);
     console.log(`  ✓ 输出文件: ${outputPath}`);
-
-    // 压缩文件
-    compressFile(outputPath);
   } catch (error) {
     console.error(`  ❌ 处理 stage_table.json 失败:`, error.message);
     throw error;
@@ -182,9 +164,6 @@ async function processItemTable() {
     console.log(`  ✓ 处理物品数: ${count}`);
     console.log(`  ✓ 输出大小: ${outputSize} KB`);
     console.log(`  ✓ 输出文件: ${outputPath}`);
-
-    // 压缩文件
-    compressFile(outputPath);
   } catch (error) {
     console.error(`  ❌ 处理 item_table.json 失败:`, error.message);
     throw error;
@@ -224,9 +203,6 @@ async function processCharacterTable() {
     console.log(`  ✓ 处理干员数: ${count}`);
     console.log(`  ✓ 输出大小: ${outputSize} KB`);
     console.log(`  ✓ 输出文件: ${outputPath}`);
-
-    // 压缩文件
-    compressFile(outputPath);
   } catch (error) {
     console.error(`  ❌ 处理 character_table.json 失败:`, error.message);
     throw error;
