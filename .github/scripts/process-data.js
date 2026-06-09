@@ -12,6 +12,11 @@ const CONFIG = {
   }
 };
 
+const KEEP_STAGES_WITHOUT_ITEM_DROPS = [
+  'act24side',
+  'act50side'
+];
+
 // 主函数
 async function main() {
   try {
@@ -77,8 +82,8 @@ async function processStageTable() {
         }
       }
 
-      // 如果没有物品且不包含 act24side，跳过
-      if (items.length === 0 && !stageId.includes('act24side')) {
+      // 部分活动关卡只有活动代币掉落，仍需要保留关卡信息
+      if (items.length === 0 && !shouldKeepStageWithoutItemDrops(stageId)) {
         filteredCount++;
         continue;
       }
@@ -131,6 +136,10 @@ function shouldFilterStage(stageId, stage) {
   }
 
   return false;
+}
+
+function shouldKeepStageWithoutItemDrops(stageId) {
+  return KEEP_STAGES_WITHOUT_ITEM_DROPS.some((keyword) => stageId.includes(keyword));
 }
 
 // 处理 item_table.json
