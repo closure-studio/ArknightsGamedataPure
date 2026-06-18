@@ -11,7 +11,7 @@
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
     "maxPlayTime": -1.0,
-    "functionDisableMask": 0,
+    "functionDisableMask": "NONE",
     "configBlackBoard": null
   },
   "levelId": null,
@@ -136,1061 +136,1109 @@
     "tiles": [
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_volcano_strife",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": [
           {
             "key": "cd_min",
-            "value": 10.0
+            "value": 10.0,
+            "valueStr": null
           },
           {
             "key": "cd_max",
-            "value": 10.0
+            "value": 10.0,
+            "valueStr": null
           },
           {
             "key": "interval",
-            "value": 1.0
+            "value": 1.0,
+            "valueStr": null
           },
           {
             "key": "trig_cnt",
-            "value": 5.0
+            "value": 5.0,
+            "valueStr": null
           },
           {
             "key": "damage_scale",
-            "value": 1.2
+            "value": 1.2,
+            "valueStr": null
           },
           {
             "key": "debuff_duration",
-            "value": 15.0
+            "value": 15.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_enemy",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_enemy",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_ally_l",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_ally_h",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_ally_l",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_ally_h",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_volcano_strife",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": [
           {
             "key": "cd_min",
-            "value": 10.0
+            "value": 10.0,
+            "valueStr": null
           },
           {
             "key": "cd_max",
-            "value": 10.0
+            "value": 10.0,
+            "valueStr": null
           },
           {
             "key": "interval",
-            "value": 1.0
+            "value": 1.0,
+            "valueStr": null
           },
           {
             "key": "trig_cnt",
-            "value": 5.0
+            "value": 5.0,
+            "valueStr": null
           },
           {
             "key": "damage_scale",
-            "value": 1.2
+            "value": 1.2,
+            "valueStr": null
           },
           {
             "key": "debuff_duration",
-            "value": 15.0
+            "value": 15.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_enemy",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_enemy",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_ally_l",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_ally_h",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_ally_l",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_ally_h",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_volcano_strife",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": [
           {
             "key": "cd_min",
-            "value": 10.0
+            "value": 10.0,
+            "valueStr": null
           },
           {
             "key": "cd_max",
-            "value": 10.0
+            "value": 10.0,
+            "valueStr": null
           },
           {
             "key": "interval",
-            "value": 1.0
+            "value": 1.0,
+            "valueStr": null
           },
           {
             "key": "trig_cnt",
-            "value": 5.0
+            "value": 5.0,
+            "valueStr": null
           },
           {
             "key": "damage_scale",
-            "value": 1.2
+            "value": 1.2,
+            "valueStr": null
           },
           {
             "key": "debuff_duration",
-            "value": 15.0
+            "value": 15.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_enemy",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_enemy",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_ally_l",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_ally_h",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_ally_l",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_ally_h",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_volcano_strife",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": [
           {
             "key": "cd_min",
-            "value": 10.0
+            "value": 10.0,
+            "valueStr": null
           },
           {
             "key": "cd_max",
-            "value": 10.0
+            "value": 10.0,
+            "valueStr": null
           },
           {
             "key": "interval",
-            "value": 1.0
+            "value": 1.0,
+            "valueStr": null
           },
           {
             "key": "trig_cnt",
-            "value": 5.0
+            "value": 5.0,
+            "valueStr": null
           },
           {
             "key": "damage_scale",
-            "value": 1.2
+            "value": 1.2,
+            "valueStr": null
           },
           {
             "key": "debuff_duration",
-            "value": 15.0
+            "value": 15.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_enemy",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_enemy",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_ally_l",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "buff_damage_ally_h",
-            "value": 100.0
+            "value": 100.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_ally_l",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           },
           {
             "key": "extra_damage_ally_h",
-            "value": 150.0
+            "value": 150.0,
+            "valueStr": null
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_fence_bound",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_fence_bound",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_start",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_end",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       }
@@ -1205,7 +1253,7 @@
   "globalBuffs": null,
   "routes": [
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 6,
         "col": 0
@@ -1224,7 +1272,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1238,7 +1286,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1252,7 +1300,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1266,7 +1314,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1280,7 +1328,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1294,7 +1342,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1308,7 +1356,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1322,7 +1370,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1342,7 +1390,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 6,
         "col": 0
@@ -1361,7 +1409,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1375,7 +1423,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 10.0,
           "position": {
             "row": 0,
@@ -1389,7 +1437,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1403,7 +1451,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1417,7 +1465,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1431,7 +1479,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1445,7 +1493,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1459,7 +1507,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1473,7 +1521,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 25.0,
           "position": {
             "row": 0,
@@ -1487,7 +1535,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1501,7 +1549,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1515,7 +1563,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1529,7 +1577,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1543,7 +1591,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1557,7 +1605,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1577,7 +1625,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 6,
         "col": 0
@@ -1596,7 +1644,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1610,7 +1658,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1624,7 +1672,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1638,7 +1686,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1652,7 +1700,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1666,7 +1714,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1680,7 +1728,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1694,7 +1742,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1714,7 +1762,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 6,
         "col": 0
@@ -1733,7 +1781,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1747,7 +1795,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1761,7 +1809,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1775,7 +1823,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1789,7 +1837,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1803,7 +1851,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1817,7 +1865,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1831,7 +1879,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1851,7 +1899,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 6,
         "col": 0
@@ -1870,7 +1918,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1884,7 +1932,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1898,7 +1946,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 15.0,
           "position": {
             "row": 0,
@@ -1912,7 +1960,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1926,7 +1974,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1940,7 +1988,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1954,7 +2002,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1968,7 +2016,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1982,7 +2030,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1996,7 +2044,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2010,7 +2058,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2024,7 +2072,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2038,7 +2086,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2052,7 +2100,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2072,7 +2120,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 6,
         "col": 0
@@ -2091,7 +2139,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2105,7 +2153,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2119,7 +2167,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2133,7 +2181,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2147,7 +2195,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2161,7 +2209,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2175,7 +2223,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2189,7 +2237,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2209,7 +2257,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 6,
         "col": 0
@@ -2228,7 +2276,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2242,7 +2290,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2256,7 +2304,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2270,7 +2318,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2284,7 +2332,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2298,7 +2346,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2312,7 +2360,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2326,7 +2374,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2346,7 +2394,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 6,
         "col": 0
@@ -2365,7 +2413,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2379,7 +2427,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2393,7 +2441,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2407,7 +2455,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2421,7 +2469,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2435,7 +2483,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2449,7 +2497,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2463,7 +2511,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2477,7 +2525,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2491,7 +2539,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2505,7 +2553,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2519,7 +2567,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2533,7 +2581,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2669,11 +2717,11 @@
         },
         "applyWay": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NONE"
         },
         "motion": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "WALK"
         },
         "enemyTags": {
           "m_defined": false,
@@ -2685,7 +2733,7 @@
         },
         "levelType": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NORMAL"
         },
         "rangeRadius": {
           "m_defined": false,
@@ -2821,11 +2869,11 @@
         },
         "applyWay": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NONE"
         },
         "motion": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "WALK"
         },
         "enemyTags": {
           "m_defined": false,
@@ -2837,7 +2885,7 @@
         },
         "levelType": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NORMAL"
         },
         "rangeRadius": {
           "m_defined": false,
@@ -2858,11 +2906,13 @@
         "talentBlackboard": [
           {
             "key": "PassiveM1.magic_damage",
-            "value": 80.0
+            "value": 80.0,
+            "valueStr": null
           },
           {
             "key": "PassiveM1.def",
-            "value": 2.0
+            "value": 2.0,
+            "valueStr": null
           }
         ],
         "skills": null,
@@ -2982,11 +3032,11 @@
         },
         "applyWay": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NONE"
         },
         "motion": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "WALK"
         },
         "enemyTags": {
           "m_defined": false,
@@ -2998,7 +3048,7 @@
         },
         "levelType": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NORMAL"
         },
         "rangeRadius": {
           "m_defined": false,
@@ -3044,13 +3094,12 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1002_nsabr",
               "count": 1,
               "preDelay": 3.0,
               "interval": 7.0,
-              "useExtraRoute": false,
               "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
@@ -3059,43 +3108,41 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
+              "randomType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
               "isValid": false,
               "extraMeta": null
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_8001_flmlod",
               "count": 1,
               "preDelay": 18.0,
               "interval": 3.0,
-              "useExtraRoute": true,
-              "routeIndex": 0,
-              "blockFragment": true,
+              "routeIndex": 1,
+              "blockFragment": false,
               "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
+              "autoDisplayEnemyInfo": true,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
+              "randomType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
               "isValid": false,
               "extraMeta": null
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1002_nsabr",
               "count": 2,
               "preDelay": 40.0,
               "interval": 7.0,
-              "useExtraRoute": false,
-              "routeIndex": 0,
+              "routeIndex": 2,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -3103,21 +3150,20 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
+              "randomType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
               "isValid": false,
               "extraMeta": null
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1002_nsabr",
               "count": 2,
               "preDelay": 70.0,
               "interval": 4.0,
-              "useExtraRoute": false,
-              "routeIndex": 0,
+              "routeIndex": 3,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -3125,7 +3171,7 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
+              "randomType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
               "isValid": false,
@@ -3145,36 +3191,34 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1045_hammer_2",
               "count": 1,
               "preDelay": 3.0,
               "interval": 1.0,
-              "useExtraRoute": false,
-              "routeIndex": 0,
-              "blockFragment": true,
-              "autoPreviewRoute": false,
+              "routeIndex": 4,
+              "blockFragment": false,
+              "autoPreviewRoute": true,
               "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
+              "randomType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
               "isValid": false,
               "extraMeta": null
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1002_nsabr",
               "count": 1,
               "preDelay": 19.0,
               "interval": 4.0,
-              "useExtraRoute": false,
-              "routeIndex": 0,
+              "routeIndex": 5,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -3182,21 +3226,20 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
+              "randomType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
               "isValid": false,
               "extraMeta": null
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1002_nsabr",
               "count": 2,
               "preDelay": 55.0,
               "interval": 4.0,
-              "useExtraRoute": false,
-              "routeIndex": 0,
+              "routeIndex": 6,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -3204,21 +3247,20 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
+              "randomType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
               "isValid": false,
               "extraMeta": null
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1045_hammer_2",
               "count": 1,
               "preDelay": 30.0,
               "interval": 1.0,
-              "useExtraRoute": false,
-              "routeIndex": 0,
+              "routeIndex": 7,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -3226,7 +3268,7 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
+              "randomType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
               "isValid": false,

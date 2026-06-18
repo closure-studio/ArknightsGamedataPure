@@ -12,9 +12,8 @@
     "isPredefinedCardsSelectable": false,
     "displayRestTime": false,
     "maxPlayTime": -1.0,
-    "functionDisableMask": 0,
-    "configBlackBoard": null,
-    "enemyTauntLevelPow": 0
+    "functionDisableMask": "NONE",
+    "configBlackBoard": null
   },
   "levelId": null,
   "mapId": null,
@@ -138,917 +137,929 @@
     "tiles": [
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": [
           {
             "key": "branch_id",
+            "value": 0.0,
             "valueStr": "num3"
           },
           {
             "key": "action_index",
-            "value": 0.0
+            "value": 0.0,
+            "valueStr": null
           },
           {
             "key": "value",
-            "value": 2.0
+            "value": 2.0,
+            "valueStr": null
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": [
           {
             "key": "branch_id",
+            "value": 0.0,
             "valueStr": "num2"
           },
           {
             "key": "action_index",
-            "value": 0.0
+            "value": 0.0,
+            "valueStr": null
           },
           {
             "key": "value",
-            "value": 2.0
+            "value": 2.0,
+            "valueStr": null
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_end",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_dygmny_1",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_dygmny_3",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_dygmny_3",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_fence_bound",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_dygmny_3",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_dygmny_1",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_end",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_dygmny_1",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_dygmny_3",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_start",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_dygmny_1",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_dygmny_3",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": 1,
-        "buildableType": 2,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "RANGED",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": [
           {
             "key": "branch_id",
+            "value": 0.0,
             "valueStr": "num4"
           },
           {
             "key": "action_index",
-            "value": 0.0
+            "value": 0.0,
+            "valueStr": null
           },
           {
             "key": "value",
-            "value": 2.0
+            "value": 2.0,
+            "valueStr": null
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": 0,
-        "buildableType": 1,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "MELEE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": [
           {
             "key": "branch_id",
+            "value": 0.0,
             "valueStr": "num1"
           },
           {
             "key": "action_index",
-            "value": 0.0
+            "value": 0.0,
+            "valueStr": null
           },
           {
             "key": "value",
-            "value": 2.0
+            "value": 2.0,
+            "valueStr": null
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_start",
-        "heightType": 0,
-        "buildableType": 0,
-        "passableMask": 3,
-        "playerSideMask": 0,
+        "heightType": "LOWLAND",
+        "buildableType": "NONE",
+        "passableMask": "ALL",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": 1,
-        "buildableType": 0,
-        "passableMask": 2,
-        "playerSideMask": 0,
+        "heightType": "HIGHLAND",
+        "buildableType": "NONE",
+        "passableMask": "FLY_ONLY",
+        "playerSideMask": "ALL",
         "blackboard": null,
         "effects": null
       }
@@ -1069,15 +1080,13 @@
       "blackboard": null,
       "overrideCameraEffect": null,
       "passProfessionMaskFlag": false,
-      "professionMask": 0,
-      "playerSideMask": 0,
-      "useExtraData": false,
-      "extraRuntimeData": null
+      "professionMask": "NONE",
+      "playerSideMask": "ALL"
     }
   ],
   "routes": [
     {
-      "motionMode": 1,
+      "motionMode": "FLY",
       "startPosition": {
         "row": 5,
         "col": 0
@@ -1096,7 +1105,7 @@
       },
       "checkpoints": [
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 999.0,
           "position": {
             "row": 0,
@@ -1116,7 +1125,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 1,
+      "motionMode": "FLY",
       "startPosition": {
         "row": 7,
         "col": 10
@@ -1135,7 +1144,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1149,7 +1158,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1163,7 +1172,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1177,7 +1186,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1197,7 +1206,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 1,
+      "motionMode": "FLY",
       "startPosition": {
         "row": 7,
         "col": 10
@@ -1216,7 +1225,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1230,7 +1239,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1244,7 +1253,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1258,7 +1267,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1278,7 +1287,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 1,
+      "motionMode": "FLY",
       "startPosition": {
         "row": 7,
         "col": 10
@@ -1297,7 +1306,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1311,7 +1320,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 5.0,
           "position": {
             "row": 0,
@@ -1325,7 +1334,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1339,7 +1348,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1353,7 +1362,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 3,
@@ -1367,7 +1376,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 30.0,
           "position": {
             "row": 0,
@@ -1381,7 +1390,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1395,7 +1404,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1415,7 +1424,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 1,
+      "motionMode": "FLY",
       "startPosition": {
         "row": 7,
         "col": 10
@@ -1434,7 +1443,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1448,7 +1457,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1462,7 +1471,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1476,7 +1485,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -1496,7 +1505,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 2,
         "col": 9
@@ -1515,7 +1524,7 @@
       },
       "checkpoints": [
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 999.0,
           "position": {
             "row": 0,
@@ -1535,7 +1544,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 4,
         "col": 1
@@ -1554,7 +1563,7 @@
       },
       "checkpoints": [
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -1568,7 +1577,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1582,7 +1591,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1596,7 +1605,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1610,7 +1619,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1624,7 +1633,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1638,7 +1647,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1652,7 +1661,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1666,7 +1675,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1680,7 +1689,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1694,7 +1703,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1708,7 +1717,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1722,7 +1731,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1736,7 +1745,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1750,7 +1759,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1764,7 +1773,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1778,7 +1787,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1792,7 +1801,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1806,7 +1815,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1820,7 +1829,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1834,7 +1843,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1848,7 +1857,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1862,7 +1871,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1876,7 +1885,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1896,7 +1905,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 4,
         "col": 1
@@ -1915,7 +1924,7 @@
       },
       "checkpoints": [
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -1929,7 +1938,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1943,7 +1952,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1957,7 +1966,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1971,7 +1980,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1985,7 +1994,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -1999,7 +2008,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2013,7 +2022,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2027,7 +2036,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2041,7 +2050,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2055,7 +2064,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2069,7 +2078,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2083,7 +2092,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2097,7 +2106,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2111,7 +2120,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2125,7 +2134,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2139,7 +2148,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2153,7 +2162,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2167,7 +2176,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2181,7 +2190,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2195,7 +2204,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2209,7 +2218,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2223,7 +2232,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2237,7 +2246,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2257,7 +2266,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 1,
+      "motionMode": "FLY",
       "startPosition": {
         "row": 2,
         "col": 6
@@ -2276,7 +2285,7 @@
       },
       "checkpoints": [
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2290,7 +2299,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2304,7 +2313,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2318,7 +2327,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2332,7 +2341,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2346,7 +2355,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2360,7 +2369,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2374,7 +2383,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2388,7 +2397,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2402,7 +2411,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2416,7 +2425,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2430,7 +2439,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2444,7 +2453,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2458,7 +2467,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2472,7 +2481,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2486,7 +2495,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2500,7 +2509,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2514,7 +2523,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2528,7 +2537,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2542,7 +2551,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2556,7 +2565,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2570,7 +2579,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2584,7 +2593,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -2604,7 +2613,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 4,
         "col": 1
@@ -2623,7 +2632,7 @@
       },
       "checkpoints": [
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -2637,7 +2646,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2651,7 +2660,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2665,7 +2674,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -2679,7 +2688,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2693,7 +2702,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2707,7 +2716,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -2721,7 +2730,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2735,7 +2744,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2749,7 +2758,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -2769,7 +2778,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 4,
         "col": 1
@@ -2788,7 +2797,7 @@
       },
       "checkpoints": [
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -2802,7 +2811,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2816,7 +2825,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2830,7 +2839,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -2844,7 +2853,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2858,7 +2867,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2872,7 +2881,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -2886,7 +2895,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2900,7 +2909,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2914,7 +2923,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -2934,7 +2943,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 3,
         "col": 4
@@ -2953,7 +2962,7 @@
       },
       "checkpoints": [
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -2967,7 +2976,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2981,7 +2990,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2995,7 +3004,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -3009,7 +3018,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3023,7 +3032,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 4,
@@ -3037,7 +3046,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -3051,7 +3060,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3065,7 +3074,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3079,7 +3088,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -3093,7 +3102,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3107,7 +3116,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3127,7 +3136,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 3,
         "col": 4
@@ -3146,7 +3155,7 @@
       },
       "checkpoints": [
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -3160,7 +3169,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3174,7 +3183,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3188,7 +3197,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -3202,7 +3211,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3216,7 +3225,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 4,
@@ -3230,7 +3239,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -3244,7 +3253,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3258,7 +3267,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3272,7 +3281,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 50.0,
           "position": {
             "row": 0,
@@ -3286,7 +3295,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3300,7 +3309,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3320,7 +3329,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 1,
+      "motionMode": "FLY",
       "startPosition": {
         "row": 5,
         "col": 6
@@ -3339,7 +3348,7 @@
       },
       "checkpoints": [
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -3353,7 +3362,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3367,7 +3376,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -3381,7 +3390,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3395,7 +3404,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -3409,7 +3418,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3423,7 +3432,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -3437,119 +3446,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 5,
-            "col": 6
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 1,
-          "time": 20.0,
-          "position": {
-            "row": 0,
-            "col": 0
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 2,
-            "col": 6
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 1,
-          "time": 20.0,
-          "position": {
-            "row": 0,
-            "col": 0
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 2,
-            "col": 7
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 1,
-          "time": 20.0,
-          "position": {
-            "row": 0,
-            "col": 0
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 5,
-            "col": 7
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 1,
-          "time": 20.0,
-          "position": {
-            "row": 0,
-            "col": 0
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3563,7 +3460,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -3577,7 +3474,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3591,7 +3488,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -3605,7 +3502,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3619,7 +3516,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -3633,7 +3530,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3647,7 +3544,119 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
+          "time": 20.0,
+          "position": {
+            "row": 0,
+            "col": 0
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "MOVE",
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 6
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "WAIT_FOR_SECONDS",
+          "time": 20.0,
+          "position": {
+            "row": 0,
+            "col": 0
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "MOVE",
+          "time": 0.0,
+          "position": {
+            "row": 2,
+            "col": 6
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "WAIT_FOR_SECONDS",
+          "time": 20.0,
+          "position": {
+            "row": 0,
+            "col": 0
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "MOVE",
+          "time": 0.0,
+          "position": {
+            "row": 2,
+            "col": 7
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "WAIT_FOR_SECONDS",
+          "time": 20.0,
+          "position": {
+            "row": 0,
+            "col": 0
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "MOVE",
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 7
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -3667,7 +3676,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 1,
+      "motionMode": "FLY",
       "startPosition": {
         "row": 7,
         "col": 10
@@ -3686,7 +3695,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 1,
@@ -3700,7 +3709,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 1,
@@ -3714,7 +3723,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 3,
@@ -3728,7 +3737,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 20.0,
           "position": {
             "row": 0,
@@ -3742,7 +3751,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -3756,7 +3765,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 6,
@@ -3776,7 +3785,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 5,
         "col": 0
@@ -3795,7 +3804,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3809,7 +3818,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 1,
+          "type": "WAIT_FOR_SECONDS",
           "time": 5.0,
           "position": {
             "row": -1,
@@ -3823,7 +3832,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3837,7 +3846,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3851,7 +3860,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3865,7 +3874,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3879,7 +3888,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3893,7 +3902,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3907,7 +3916,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3921,7 +3930,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3935,7 +3944,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3949,7 +3958,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3971,7 +3980,7 @@
   ],
   "extraRoutes": [
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 6,
         "col": 4
@@ -3990,7 +3999,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4004,7 +4013,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4018,7 +4027,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4032,7 +4041,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4046,7 +4055,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4060,7 +4069,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4074,7 +4083,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4088,7 +4097,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4102,7 +4111,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4116,7 +4125,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4130,7 +4139,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4144,7 +4153,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4158,7 +4167,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4172,7 +4181,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4186,7 +4195,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4200,7 +4209,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4214,7 +4223,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4228,7 +4237,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4242,7 +4251,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4256,7 +4265,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4270,7 +4279,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4284,7 +4293,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4298,7 +4307,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4312,7 +4321,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4326,7 +4335,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4340,7 +4349,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4354,7 +4363,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4368,7 +4377,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4382,7 +4391,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4396,7 +4405,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4410,7 +4419,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4424,7 +4433,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4438,7 +4447,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4452,7 +4461,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4466,7 +4475,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4480,7 +4489,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4494,7 +4503,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4514,7 +4523,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 1,
         "col": 4
@@ -4533,7 +4542,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4547,7 +4556,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4561,7 +4570,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4575,7 +4584,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4589,7 +4598,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4603,7 +4612,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4617,7 +4626,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4631,7 +4640,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4645,7 +4654,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4659,7 +4668,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4673,7 +4682,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4687,7 +4696,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4701,7 +4710,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4715,7 +4724,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4729,7 +4738,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4743,7 +4752,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4757,7 +4766,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4771,7 +4780,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4785,7 +4794,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4799,7 +4808,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4813,7 +4822,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4827,7 +4836,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4841,7 +4850,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4855,7 +4864,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4869,7 +4878,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4883,7 +4892,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4897,7 +4906,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4911,7 +4920,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4925,7 +4934,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4939,7 +4948,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4953,7 +4962,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4967,7 +4976,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -4981,7 +4990,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4995,7 +5004,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5009,7 +5018,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5023,7 +5032,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5037,7 +5046,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5057,7 +5066,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 1,
         "col": 1
@@ -5076,7 +5085,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5090,7 +5099,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5104,7 +5113,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5118,63 +5127,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 5,
-            "col": 4
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 2,
-            "col": 4
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 2,
-            "col": 1
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 5,
-            "col": 1
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5188,7 +5141,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5202,7 +5155,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5216,7 +5169,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5230,7 +5183,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5244,7 +5197,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5258,7 +5211,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5272,7 +5225,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5286,7 +5239,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5300,7 +5253,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5314,7 +5267,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5328,7 +5281,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5342,7 +5295,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5356,7 +5309,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5370,7 +5323,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5384,7 +5337,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5398,7 +5351,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5412,7 +5365,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5426,7 +5379,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5440,7 +5393,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5454,7 +5407,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5468,7 +5421,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5482,7 +5435,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5496,7 +5449,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5510,7 +5463,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5524,7 +5477,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5538,7 +5491,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5552,7 +5505,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5566,7 +5519,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5580,7 +5533,63 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
+          "time": 0.0,
+          "position": {
+            "row": 2,
+            "col": 4
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "MOVE",
+          "time": 0.0,
+          "position": {
+            "row": 2,
+            "col": 1
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "MOVE",
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 1
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "MOVE",
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 4
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5600,7 +5609,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": "WALK",
       "startPosition": {
         "row": 6,
         "col": 1
@@ -5619,7 +5628,7 @@
       },
       "checkpoints": [
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5633,7 +5642,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5647,7 +5656,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5661,7 +5670,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5675,7 +5684,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5689,7 +5698,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5703,7 +5712,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5717,7 +5726,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5731,7 +5740,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5745,7 +5754,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5759,7 +5768,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5773,7 +5782,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5787,7 +5796,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5801,7 +5810,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5815,7 +5824,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5829,7 +5838,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5843,7 +5852,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5857,7 +5866,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5871,7 +5880,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5885,7 +5894,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5899,7 +5908,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5913,7 +5922,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5927,7 +5936,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5941,7 +5950,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5955,7 +5964,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5969,7 +5978,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5983,7 +5992,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5997,7 +6006,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6011,7 +6020,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -6025,7 +6034,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -6039,7 +6048,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6053,7 +6062,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6067,7 +6076,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -6081,7 +6090,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -6095,7 +6104,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6109,7 +6118,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6123,7 +6132,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -6137,7 +6146,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 5,
@@ -6151,7 +6160,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": 0,
+          "type": "MOVE",
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6314,11 +6323,11 @@
         },
         "applyWay": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NONE"
         },
         "motion": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "WALK"
         },
         "enemyTags": {
           "m_defined": false,
@@ -6330,7 +6339,7 @@
         },
         "levelType": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NORMAL"
         },
         "rangeRadius": {
           "m_defined": false,
@@ -6506,11 +6515,11 @@
         },
         "applyWay": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NONE"
         },
         "motion": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "WALK"
         },
         "enemyTags": {
           "m_defined": false,
@@ -6522,7 +6531,7 @@
         },
         "levelType": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NORMAL"
         },
         "rangeRadius": {
           "m_defined": false,
@@ -6692,11 +6701,11 @@
         },
         "applyWay": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NONE"
         },
         "motion": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "WALK"
         },
         "enemyTags": {
           "m_defined": false,
@@ -6708,7 +6717,7 @@
         },
         "levelType": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NORMAL"
         },
         "rangeRadius": {
           "m_defined": false,
@@ -6872,11 +6881,11 @@
         },
         "applyWay": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NONE"
         },
         "motion": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "WALK"
         },
         "enemyTags": {
           "m_defined": false,
@@ -6888,7 +6897,7 @@
         },
         "levelType": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NORMAL"
         },
         "rangeRadius": {
           "m_defined": false,
@@ -7058,11 +7067,11 @@
         },
         "applyWay": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NONE"
         },
         "motion": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "WALK"
         },
         "enemyTags": {
           "m_defined": false,
@@ -7074,7 +7083,7 @@
         },
         "levelType": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NORMAL"
         },
         "rangeRadius": {
           "m_defined": false,
@@ -7244,11 +7253,11 @@
         },
         "applyWay": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NONE"
         },
         "motion": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "WALK"
         },
         "enemyTags": {
           "m_defined": false,
@@ -7260,7 +7269,7 @@
         },
         "levelType": {
           "m_defined": false,
-          "m_value": 0
+          "m_value": "NORMAL"
         },
         "rangeRadius": {
           "m_defined": false,
@@ -7294,7 +7303,7 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_2119_dyshhj_2",
               "count": 1,
@@ -7308,18 +7317,14 @@
               "hiddenGroup": "copper_b",
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": true,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_10083_hlbird_2",
               "count": 6,
@@ -7333,18 +7338,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_10083_hlbird_2",
               "count": 7,
@@ -7358,18 +7359,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_10085_hllevi_2",
               "count": 1,
@@ -7383,18 +7380,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_10083_hlbird_2",
               "count": 8,
@@ -7408,18 +7401,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_10091_hlsttu_2",
               "count": 1,
@@ -7433,18 +7422,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": "e1",
               "randomSpawnGroupPackKey": "s1",
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 50,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1429_lrwzrd_2",
               "count": 1,
@@ -7458,18 +7443,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": "s1",
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 50,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 1,
+              "actionType": "PREVIEW_CURSOR",
               "managedByScheduler": true,
               "key": "enemy_1429_lrwzrd_2",
               "count": 1,
@@ -7483,18 +7464,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": "s1",
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 50,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_10084_hlegle_2",
               "count": 1,
@@ -7508,18 +7485,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": "s1",
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 50,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1429_lrwzrd",
               "count": 1,
@@ -7533,18 +7506,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": "e1",
               "randomSpawnGroupPackKey": "s2",
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 50,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 1,
+              "actionType": "PREVIEW_CURSOR",
               "managedByScheduler": true,
               "key": "enemy_1429_lrwzrd",
               "count": 1,
@@ -7558,18 +7527,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": "s2",
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 50,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1429_lrwzrd",
               "count": 1,
@@ -7583,18 +7548,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": "s2",
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 50,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 1,
+              "actionType": "PREVIEW_CURSOR",
               "managedByScheduler": true,
               "key": "enemy_1429_lrwzrd",
               "count": 1,
@@ -7608,18 +7569,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": "s2",
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 50,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_10084_hlegle_2",
               "count": 1,
@@ -7633,18 +7590,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": "s2",
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 50,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_10084_hlegle_2",
               "count": 1,
@@ -7658,18 +7611,14 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": "s2",
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_2001_duckmi",
               "count": 1,
@@ -7683,15 +7632,11 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": "s2",
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 50,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             }
           ]
         }
@@ -7706,7 +7651,7 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1428_lrsoul",
               "count": 1,
@@ -7720,20 +7665,13 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             }
-          ],
-          "m_randomActionGroups": null,
-          "m_actionWithRandomSpawn": null,
-          "m_validActionPackKeys": null
+          ]
         }
       ]
     },
@@ -7743,7 +7681,7 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1428_lrsoul",
               "count": 1,
@@ -7757,20 +7695,13 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             }
-          ],
-          "m_randomActionGroups": null,
-          "m_actionWithRandomSpawn": null,
-          "m_validActionPackKeys": null
+          ]
         }
       ]
     },
@@ -7780,7 +7711,7 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1428_lrsoul",
               "count": 1,
@@ -7794,20 +7725,13 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             }
-          ],
-          "m_randomActionGroups": null,
-          "m_actionWithRandomSpawn": null,
-          "m_validActionPackKeys": null
+          ]
         }
       ]
     },
@@ -7817,7 +7741,7 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": 0,
+              "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_1428_lrsoul",
               "count": 1,
@@ -7831,20 +7755,13 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             }
-          ],
-          "m_randomActionGroups": null,
-          "m_actionWithRandomSpawn": null,
-          "m_validActionPackKeys": null
+          ]
         }
       ]
     }
@@ -7857,7 +7774,7 @@
           "row": 6,
           "col": 4
         },
-        "direction": 0,
+        "direction": "UP",
         "hidden": false,
         "alias": "trap_222_rgdysm#1a",
         "uniEquipIds": null,
@@ -7866,7 +7783,7 @@
         "inst": {
           "characterKey": "trap_222_rgdysm",
           "level": 1,
-          "phase": 0,
+          "phase": "PHASE_0",
           "favorPoint": 0,
           "potentialRank": 0
         },
@@ -7877,28 +7794,33 @@
         "overrideSkillBlackboard": [
           {
             "key": "talent@interval",
-            "value": 25.0
+            "value": 25.0,
+            "valueStr": null
           },
           {
             "key": "enemy_key",
+            "value": 0.0,
             "valueStr": "enemy_1428_lrsoul"
           },
           {
             "key": "attack@enemy_key",
+            "value": 0.0,
             "valueStr": "enemy_1428_lrsoul"
           },
           {
             "key": "attack@is_unharmful",
-            "value": 1.0
+            "value": 1.0,
+            "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
           "row": 6,
           "col": 1
         },
-        "direction": 0,
+        "direction": "UP",
         "hidden": false,
         "alias": "trap_222_rgdysm#1b",
         "uniEquipIds": null,
@@ -7907,7 +7829,7 @@
         "inst": {
           "characterKey": "trap_222_rgdysm",
           "level": 1,
-          "phase": 0,
+          "phase": "PHASE_0",
           "favorPoint": 0,
           "potentialRank": 0
         },
@@ -7918,28 +7840,33 @@
         "overrideSkillBlackboard": [
           {
             "key": "talent@interval",
-            "value": 25.0
+            "value": 25.0,
+            "valueStr": null
           },
           {
             "key": "enemy_key",
+            "value": 0.0,
             "valueStr": "enemy_1428_lrsoul"
           },
           {
             "key": "attack@enemy_key",
+            "value": 0.0,
             "valueStr": "enemy_1428_lrsoul"
           },
           {
             "key": "attack@is_unharmful",
-            "value": 1.0
+            "value": 1.0,
+            "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
           "row": 1,
           "col": 1
         },
-        "direction": 0,
+        "direction": "UP",
         "hidden": false,
         "alias": "trap_222_rgdysm#2a",
         "uniEquipIds": null,
@@ -7948,7 +7875,7 @@
         "inst": {
           "characterKey": "trap_222_rgdysm",
           "level": 1,
-          "phase": 0,
+          "phase": "PHASE_0",
           "favorPoint": 0,
           "potentialRank": 0
         },
@@ -7959,28 +7886,33 @@
         "overrideSkillBlackboard": [
           {
             "key": "talent@interval",
-            "value": 25.0
+            "value": 25.0,
+            "valueStr": null
           },
           {
             "key": "enemy_key",
+            "value": 0.0,
             "valueStr": "enemy_1428_lrsoul"
           },
           {
             "key": "attack@enemy_key",
+            "value": 0.0,
             "valueStr": "enemy_1428_lrsoul"
           },
           {
             "key": "attack@is_unharmful",
-            "value": 1.0
+            "value": 1.0,
+            "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
           "row": 1,
           "col": 4
         },
-        "direction": 0,
+        "direction": "UP",
         "hidden": false,
         "alias": "trap_222_rgdysm#2b",
         "uniEquipIds": null,
@@ -7989,7 +7921,7 @@
         "inst": {
           "characterKey": "trap_222_rgdysm",
           "level": 1,
-          "phase": 0,
+          "phase": "PHASE_0",
           "favorPoint": 0,
           "potentialRank": 0
         },
@@ -8000,28 +7932,33 @@
         "overrideSkillBlackboard": [
           {
             "key": "talent@interval",
-            "value": 25.0
+            "value": 25.0,
+            "valueStr": null
           },
           {
             "key": "enemy_key",
+            "value": 0.0,
             "valueStr": "enemy_1428_lrsoul"
           },
           {
             "key": "attack@enemy_key",
+            "value": 0.0,
             "valueStr": "enemy_1428_lrsoul"
           },
           {
             "key": "attack@is_unharmful",
-            "value": 1.0
+            "value": 1.0,
+            "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
           "row": 0,
           "col": 0
         },
-        "direction": 0,
+        "direction": "UP",
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
@@ -8030,7 +7967,7 @@
         "inst": {
           "characterKey": "trap_251_buftrp",
           "level": 1,
-          "phase": 0,
+          "phase": "PHASE_0",
           "favorPoint": 0,
           "potentialRank": 0
         },
@@ -8038,7 +7975,8 @@
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": null
+        "overrideSkillBlackboard": null,
+        "overrideTalents": null
       }
     ],
     "characterCards": [],
@@ -8053,6 +7991,5 @@
   "excludeCharIdList": null,
   "randomSeed": 578894948,
   "operaConfig": null,
-  "cameraPlugin": "",
-  "runtimeData": null
+  "cameraPlugin": ""
 }
