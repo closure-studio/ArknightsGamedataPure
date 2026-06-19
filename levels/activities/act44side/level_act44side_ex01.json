@@ -11,8 +11,9 @@
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
     "maxPlayTime": -1.0,
-    "functionDisableMask": "NONE",
-    "configBlackBoard": null
+    "functionDisableMask": 0,
+    "configBlackBoard": null,
+    "enemyTauntLevelPow": 0
   },
   "levelId": null,
   "mapId": null,
@@ -150,1009 +151,1003 @@
     "tiles": [
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_start",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telout",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telout",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telout",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telout",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telout",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telout",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": "HIGHLAND",
-        "buildableType": "RANGED",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 2,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_start",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telin",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": "HIGHLAND",
-        "buildableType": "RANGED",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 2,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_start",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telin",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": "HIGHLAND",
-        "buildableType": "RANGED",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 2,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_start",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telin",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_bigforce",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": [
           {
             "key": "base_force_level",
-            "value": 2.0,
-            "valueStr": null
+            "value": 2.0
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_bigforce",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": [
           {
             "key": "base_force_level",
-            "value": 2.0,
-            "valueStr": null
+            "value": 2.0
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_bigforce",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": [
           {
             "key": "base_force_level",
-            "value": 2.0,
-            "valueStr": null
+            "value": 2.0
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_bigforce",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": [
           {
             "key": "base_force_level",
-            "value": 2.0,
-            "valueStr": null
+            "value": 2.0
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_bigforce",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": [
           {
             "key": "base_force_level",
-            "value": 2.0,
-            "valueStr": null
+            "value": 2.0
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_bigforce",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": [
           {
             "key": "base_force_level",
-            "value": 2.0,
-            "valueStr": null
+            "value": 2.0
           }
         ],
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": "HIGHLAND",
-        "buildableType": "RANGED",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 2,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_start",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telin",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": "HIGHLAND",
-        "buildableType": "RANGED",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 2,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_start",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telin",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": "HIGHLAND",
-        "buildableType": "RANGED",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 2,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": "HIGHLAND",
-        "buildableType": "RANGED",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 2,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": "HIGHLAND",
-        "buildableType": "RANGED",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 2,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": "HIGHLAND",
-        "buildableType": "RANGED",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 2,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_wall",
-        "heightType": "HIGHLAND",
-        "buildableType": "RANGED",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 2,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_start",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_floor",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telin",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_end",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telout",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_road",
-        "heightType": "LOWLAND",
-        "buildableType": "MELEE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 1,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_hole",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_telin",
-        "heightType": "LOWLAND",
-        "buildableType": "NONE",
-        "passableMask": "ALL",
-        "playerSideMask": "ALL",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
       {
         "tileKey": "tile_forbidden",
-        "heightType": "HIGHLAND",
-        "buildableType": "NONE",
-        "passableMask": "FLY_ONLY",
-        "playerSideMask": "ALL",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       }
@@ -1165,164 +1160,138 @@
   "tilesDisallowToLocate": [],
   "runes": [
     {
-      "difficultyMask": "NORMAL",
+      "difficultyMask": 1,
       "key": "env_system_new",
       "professionMask": 1023,
-      "buildableMask": "ALL",
+      "buildableMask": 3,
       "blackboard": [
         {
           "key": "key",
-          "value": 0.0,
           "valueStr": "env_act44side_level_ctrl"
         },
         {
           "key": "total_score",
-          "value": 200.0,
-          "valueStr": null
+          "value": 200.0
         },
         {
           "key": "duration",
-          "value": 35.0,
-          "valueStr": null
+          "value": 35.0
         },
         {
           "key": "character_score",
-          "value": 10.0,
-          "valueStr": null
+          "value": 10.0
         },
         {
           "key": "enemy_score",
-          "value": 10.0,
-          "valueStr": null
+          "value": 10.0
         },
         {
           "key": "respawn_dec_racio",
-          "value": -0.9,
-          "valueStr": null
+          "value": -0.9
         },
         {
           "key": "activity_dependent_ui_plugin_name",
-          "value": 0.0,
           "valueStr": "act44side"
         },
         {
           "key": "sp",
-          "value": 100.0,
-          "valueStr": null
+          "value": 100.0
         },
         {
           "key": "init_score",
-          "value": 100.0,
-          "valueStr": null
+          "value": 100.0
         },
         {
           "key": "cost",
-          "value": -99.0,
-          "valueStr": null
+          "value": -99.0
         },
         {
           "key": "total_score_add_each_time",
-          "value": 200.0,
-          "valueStr": null
+          "value": 200.0
         }
       ]
     },
     {
-      "difficultyMask": "FOUR_STAR",
+      "difficultyMask": 2,
       "key": "global_lifepoint",
       "professionMask": 1023,
-      "buildableMask": "ALL",
+      "buildableMask": 3,
       "blackboard": [
         {
           "key": "value",
-          "value": 1.0,
-          "valueStr": null
+          "value": 1.0
         }
       ]
     },
     {
-      "difficultyMask": "FOUR_STAR",
+      "difficultyMask": 2,
       "key": "enemy_attribute_mul",
       "professionMask": 1023,
-      "buildableMask": "ALL",
+      "buildableMask": 3,
       "blackboard": [
         {
           "key": "atk",
-          "value": 1.2,
-          "valueStr": null
+          "value": 1.2
         },
         {
           "key": "def",
-          "value": 1.2,
-          "valueStr": null
+          "value": 1.2
         },
         {
           "key": "max_hp",
-          "value": 1.2,
-          "valueStr": null
+          "value": 1.2
         }
       ]
     },
     {
-      "difficultyMask": "FOUR_STAR",
+      "difficultyMask": 2,
       "key": "env_system_new",
       "professionMask": 1023,
-      "buildableMask": "ALL",
+      "buildableMask": 3,
       "blackboard": [
         {
           "key": "key",
-          "value": 0.0,
           "valueStr": "env_act44side_level_ctrl"
         },
         {
           "key": "total_score",
-          "value": 200.0,
-          "valueStr": null
+          "value": 200.0
         },
         {
           "key": "duration",
-          "value": 35.0,
-          "valueStr": null
+          "value": 35.0
         },
         {
           "key": "character_score",
-          "value": 10.0,
-          "valueStr": null
+          "value": 10.0
         },
         {
           "key": "enemy_score",
-          "value": 5.0,
-          "valueStr": null
+          "value": 5.0
         },
         {
           "key": "respawn_dec_racio",
-          "value": -0.9,
-          "valueStr": null
+          "value": -0.9
         },
         {
           "key": "activity_dependent_ui_plugin_name",
-          "value": 0.0,
           "valueStr": "act44side"
         },
         {
           "key": "sp",
-          "value": 100.0,
-          "valueStr": null
+          "value": 100.0
         },
         {
           "key": "init_score",
-          "value": 100.0,
-          "valueStr": null
+          "value": 100.0
         },
         {
           "key": "cost",
-          "value": -99.0,
-          "valueStr": null
+          "value": -99.0
         },
         {
           "key": "total_score_add_each_time",
-          "value": 200.0,
-          "valueStr": null
+          "value": 200.0
         }
       ]
     }
@@ -1331,7 +1300,7 @@
   "globalBuffs": null,
   "routes": [
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 1,
         "col": 1
@@ -1350,7 +1319,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -1364,7 +1333,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1378,7 +1347,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1392,7 +1361,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -1406,7 +1375,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -1420,7 +1389,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1434,7 +1403,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1448,7 +1417,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -1468,7 +1437,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 1,
         "col": 2
@@ -1487,7 +1456,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -1501,7 +1470,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1515,7 +1484,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1529,7 +1498,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1543,7 +1512,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -1557,7 +1526,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -1571,7 +1540,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1585,7 +1554,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1599,7 +1568,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -1619,7 +1588,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 1,
         "col": 3
@@ -1638,7 +1607,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -1652,7 +1621,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1666,7 +1635,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1680,7 +1649,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1694,7 +1663,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -1708,7 +1677,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -1722,7 +1691,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1736,7 +1705,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1750,7 +1719,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -1770,7 +1739,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 1,
         "col": 4
@@ -1789,7 +1758,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -1803,7 +1772,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1817,7 +1786,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1831,7 +1800,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1845,7 +1814,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -1859,7 +1828,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -1873,7 +1842,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1887,7 +1856,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -1901,7 +1870,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -1921,7 +1890,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 1,
         "col": 5
@@ -1940,7 +1909,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -1954,7 +1923,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -1968,7 +1937,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1982,7 +1951,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -1996,7 +1965,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2010,7 +1979,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2024,7 +1993,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2038,7 +2007,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2052,7 +2021,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -2072,7 +2041,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 1,
         "col": 6
@@ -2091,7 +2060,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -2105,7 +2074,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -2119,7 +2088,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2133,7 +2102,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2147,7 +2116,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2161,7 +2130,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2175,7 +2144,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2189,7 +2158,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2203,7 +2172,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -2223,7 +2192,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 1
@@ -2247,7 +2216,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 2
@@ -2271,7 +2240,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 3
@@ -2295,7 +2264,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 4
@@ -2319,7 +2288,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 5
@@ -2343,7 +2312,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 6,
         "col": 10
@@ -2362,7 +2331,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 30.0,
           "position": {
             "row": 0,
@@ -2376,7 +2345,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 6,
@@ -2390,7 +2359,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -2404,7 +2373,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -2418,7 +2387,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -2432,7 +2401,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2446,7 +2415,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2460,7 +2429,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2474,7 +2443,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2488,7 +2457,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2502,7 +2471,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2516,7 +2485,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -2536,7 +2505,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 5,
         "col": 10
@@ -2555,7 +2524,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 30.0,
           "position": {
             "row": 0,
@@ -2569,7 +2538,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 5,
@@ -2583,7 +2552,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -2597,7 +2566,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -2611,7 +2580,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -2625,7 +2594,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -2639,7 +2608,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2653,7 +2622,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2667,7 +2636,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2681,7 +2650,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2695,7 +2664,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2709,7 +2678,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2723,7 +2692,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -2743,7 +2712,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 10
@@ -2762,7 +2731,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 30.0,
           "position": {
             "row": 0,
@@ -2776,7 +2745,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2790,7 +2759,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -2804,7 +2773,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -2818,7 +2787,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -2832,7 +2801,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -2846,7 +2815,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2860,7 +2829,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -2874,7 +2843,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2888,7 +2857,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2902,7 +2871,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2916,7 +2885,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -2930,7 +2899,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -2950,7 +2919,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 3,
         "col": 10
@@ -2969,7 +2938,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 30.0,
           "position": {
             "row": 0,
@@ -2983,7 +2952,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -2997,7 +2966,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -3011,7 +2980,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -3025,7 +2994,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -3039,7 +3008,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -3053,7 +3022,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3067,7 +3036,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3081,7 +3050,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -3095,7 +3064,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -3109,7 +3078,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -3123,7 +3092,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -3137,7 +3106,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -3157,7 +3126,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 2,
         "col": 10
@@ -3176,7 +3145,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 30.0,
           "position": {
             "row": 0,
@@ -3190,7 +3159,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3204,7 +3173,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -3218,7 +3187,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -3232,7 +3201,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -3246,7 +3215,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -3260,7 +3229,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3274,7 +3243,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3288,7 +3257,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -3302,7 +3271,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -3316,7 +3285,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -3330,7 +3299,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -3344,7 +3313,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -3364,7 +3333,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 1,
         "col": 10
@@ -3383,7 +3352,7 @@
       },
       "checkpoints": [
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 30.0,
           "position": {
             "row": 0,
@@ -3397,7 +3366,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -3411,7 +3380,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -3425,7 +3394,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -3439,7 +3408,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -3453,7 +3422,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -3467,7 +3436,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3481,7 +3450,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3495,7 +3464,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -3509,7 +3478,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -3523,7 +3492,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -3537,7 +3506,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -3551,7 +3520,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -3571,7 +3540,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 0,
         "col": 10
@@ -3590,7 +3559,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -3604,7 +3573,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -3618,7 +3587,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 8,
@@ -3632,7 +3601,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -3646,7 +3615,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -3660,7 +3629,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -3680,7 +3649,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 6,
         "col": 9
@@ -3699,7 +3668,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 6,
@@ -3713,7 +3682,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -3727,7 +3696,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 6,
@@ -3741,7 +3710,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -3755,7 +3724,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -3769,7 +3738,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -3783,7 +3752,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3797,7 +3766,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -3811,7 +3780,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -3825,7 +3794,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -3839,7 +3808,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -3853,7 +3822,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -3867,7 +3836,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -3887,7 +3856,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 5,
         "col": 9
@@ -3906,7 +3875,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3920,7 +3889,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -3934,7 +3903,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 5,
@@ -3948,7 +3917,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -3962,7 +3931,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -3976,7 +3945,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -3990,7 +3959,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -4004,7 +3973,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4018,7 +3987,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4032,7 +4001,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4046,7 +4015,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4060,7 +4029,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4074,7 +4043,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4088,7 +4057,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -4108,7 +4077,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 9
@@ -4127,7 +4096,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4141,7 +4110,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -4155,7 +4124,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4169,7 +4138,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -4183,7 +4152,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -4197,7 +4166,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -4211,7 +4180,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -4225,7 +4194,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4239,7 +4208,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4253,7 +4222,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4267,7 +4236,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4281,7 +4250,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4295,7 +4264,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4309,7 +4278,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -4329,7 +4298,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 3,
         "col": 9
@@ -4348,7 +4317,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4362,7 +4331,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -4376,7 +4345,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4390,7 +4359,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -4404,7 +4373,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -4418,7 +4387,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -4432,7 +4401,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -4446,7 +4415,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4460,7 +4429,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4474,7 +4443,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4488,7 +4457,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4502,7 +4471,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4516,7 +4485,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4530,7 +4499,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -4550,7 +4519,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 2,
         "col": 9
@@ -4569,7 +4538,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4583,7 +4552,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -4597,7 +4566,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4611,7 +4580,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -4625,7 +4594,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -4639,7 +4608,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -4653,7 +4622,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -4667,7 +4636,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4681,7 +4650,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4695,7 +4664,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4709,7 +4678,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4723,7 +4692,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4737,7 +4706,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4751,7 +4720,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -4771,7 +4740,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 1,
         "col": 9
@@ -4790,7 +4759,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -4804,7 +4773,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -4818,7 +4787,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -4832,7 +4801,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -4846,7 +4815,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -4860,7 +4829,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -4874,7 +4843,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -4888,7 +4857,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4902,7 +4871,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -4916,7 +4885,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4930,7 +4899,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -4944,7 +4913,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4958,7 +4927,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -4972,7 +4941,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -4992,7 +4961,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 0,
         "col": 10
@@ -5011,7 +4980,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -5025,7 +4994,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -5039,7 +5008,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 8,
@@ -5053,7 +5022,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -5067,7 +5036,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -5081,7 +5050,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -5101,7 +5070,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 0,
         "col": 10
@@ -5120,7 +5089,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -5134,7 +5103,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -5148,7 +5117,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 8,
@@ -5162,7 +5131,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -5176,7 +5145,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -5190,7 +5159,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -5210,7 +5179,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 6,
         "col": 9
@@ -5229,7 +5198,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 6,
@@ -5243,7 +5212,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -5257,7 +5226,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 6,
@@ -5271,7 +5240,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -5285,7 +5254,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -5299,7 +5268,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -5313,7 +5282,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5327,7 +5296,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5341,7 +5310,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -5355,7 +5324,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -5369,7 +5338,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -5383,7 +5352,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -5397,7 +5366,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -5417,7 +5386,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 5,
         "col": 9
@@ -5436,7 +5405,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5450,7 +5419,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -5464,7 +5433,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 5,
@@ -5478,7 +5447,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -5492,7 +5461,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -5506,7 +5475,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -5520,7 +5489,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -5534,7 +5503,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5548,7 +5517,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5562,7 +5531,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -5576,7 +5545,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -5590,7 +5559,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -5604,7 +5573,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -5618,7 +5587,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -5638,7 +5607,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 9
@@ -5657,7 +5626,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -5671,7 +5640,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -5685,7 +5654,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -5699,7 +5668,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -5713,7 +5682,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -5727,7 +5696,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -5741,7 +5710,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -5755,7 +5724,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5769,7 +5738,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5783,7 +5752,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -5797,7 +5766,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -5811,7 +5780,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -5825,7 +5794,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -5839,7 +5808,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -5859,7 +5828,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 3,
         "col": 9
@@ -5878,7 +5847,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -5892,7 +5861,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -5906,7 +5875,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -5920,7 +5889,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -5934,7 +5903,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -5948,7 +5917,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -5962,7 +5931,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -5976,7 +5945,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -5990,7 +5959,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6004,7 +5973,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -6018,7 +5987,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -6032,7 +6001,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -6046,7 +6015,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -6060,7 +6029,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -6080,7 +6049,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 2,
         "col": 9
@@ -6099,7 +6068,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6113,7 +6082,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -6127,7 +6096,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6141,7 +6110,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -6155,7 +6124,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -6169,7 +6138,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -6183,7 +6152,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -6197,7 +6166,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6211,7 +6180,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6225,7 +6194,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -6239,7 +6208,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -6253,7 +6222,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -6267,7 +6236,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -6281,7 +6250,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -6301,7 +6270,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 1,
         "col": 9
@@ -6320,7 +6289,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -6334,7 +6303,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -6348,7 +6317,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -6362,7 +6331,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -6376,7 +6345,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -6390,7 +6359,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -6404,7 +6373,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -6418,7 +6387,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6432,7 +6401,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6446,7 +6415,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -6460,7 +6429,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -6474,7 +6443,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -6488,7 +6457,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -6502,7 +6471,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -6522,7 +6491,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 0,
         "col": 10
@@ -6541,7 +6510,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -6555,7 +6524,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -6569,7 +6538,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 8,
@@ -6583,7 +6552,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -6597,7 +6566,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -6611,7 +6580,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -6631,7 +6600,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 0,
         "col": 10
@@ -6650,7 +6619,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -6664,7 +6633,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -6678,7 +6647,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 8,
@@ -6692,7 +6661,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -6706,7 +6675,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -6720,7 +6689,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -6740,7 +6709,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 6,
         "col": 9
@@ -6759,7 +6728,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 6,
@@ -6773,7 +6742,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -6787,7 +6756,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -6801,7 +6770,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -6815,7 +6784,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6829,7 +6798,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -6843,7 +6812,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -6857,7 +6826,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -6871,7 +6840,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -6885,7 +6854,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -6899,7 +6868,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -6919,7 +6888,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 5,
         "col": 9
@@ -6938,7 +6907,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 5,
@@ -6952,7 +6921,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -6966,7 +6935,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -6980,7 +6949,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -6994,7 +6963,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -7008,7 +6977,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -7022,7 +6991,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -7036,7 +7005,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -7050,7 +7019,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -7064,7 +7033,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -7078,7 +7047,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -7092,7 +7061,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -7112,7 +7081,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 9
@@ -7131,7 +7100,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -7145,7 +7114,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -7159,7 +7128,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -7173,7 +7142,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -7187,7 +7156,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -7201,7 +7170,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -7215,7 +7184,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -7229,7 +7198,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -7243,7 +7212,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -7257,7 +7226,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -7271,7 +7240,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -7285,7 +7254,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -7305,7 +7274,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 3,
         "col": 9
@@ -7324,7 +7293,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -7338,7 +7307,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -7352,7 +7321,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -7366,7 +7335,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -7380,7 +7349,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -7394,7 +7363,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -7408,7 +7377,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -7422,7 +7391,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -7436,7 +7405,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -7450,7 +7419,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -7464,7 +7433,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -7478,7 +7447,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -7498,7 +7467,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 2,
         "col": 9
@@ -7517,7 +7486,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -7531,7 +7500,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -7545,7 +7514,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -7559,7 +7528,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -7573,7 +7542,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -7587,7 +7556,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -7601,7 +7570,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -7615,7 +7584,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -7629,7 +7598,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -7643,7 +7612,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -7657,7 +7626,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -7671,7 +7640,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -7691,7 +7660,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 1,
         "col": 9
@@ -7710,7 +7679,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -7724,7 +7693,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -7738,7 +7707,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -7752,7 +7721,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -7766,7 +7735,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 1,
@@ -7780,7 +7749,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -7794,7 +7763,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 2,
@@ -7808,7 +7777,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -7822,7 +7791,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 3,
@@ -7836,7 +7805,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -7850,7 +7819,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 4,
@@ -7864,7 +7833,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -7884,7 +7853,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 0,
         "col": 10
@@ -7903,7 +7872,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -7917,7 +7886,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -7931,7 +7900,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 8,
@@ -7945,7 +7914,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -7959,7 +7928,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -7973,7 +7942,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -7993,7 +7962,7 @@
       "visitEveryCheckPoint": true
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 0,
         "col": 10
@@ -8012,7 +7981,7 @@
       },
       "checkpoints": [
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -8026,7 +7995,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -8040,7 +8009,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "MOVE",
+          "type": 0,
           "time": 0.0,
           "position": {
             "row": 8,
@@ -8054,7 +8023,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "DISAPPEAR",
+          "type": 5,
           "time": 0.0,
           "position": {
             "row": 0,
@@ -8068,7 +8037,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "WAIT_FOR_SECONDS",
+          "type": 1,
           "time": 10.0,
           "position": {
             "row": 0,
@@ -8082,7 +8051,7 @@
           "reachDistance": 0.0
         },
         {
-          "type": "APPEAR_AT_POS",
+          "type": 6,
           "time": 0.0,
           "position": {
             "row": 7,
@@ -8104,7 +8073,7 @@
   ],
   "extraRoutes": [
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 1
@@ -8128,7 +8097,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 2
@@ -8152,7 +8121,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 3
@@ -8176,7 +8145,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 4
@@ -8200,7 +8169,7 @@
       "visitEveryCheckPoint": false
     },
     {
-      "motionMode": "WALK",
+      "motionMode": 0,
       "startPosition": {
         "row": 4,
         "col": 5
@@ -8261,7 +8230,7 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8275,14 +8244,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8296,14 +8269,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8317,14 +8294,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8338,14 +8319,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8359,14 +8344,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8380,14 +8369,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "PREVIEW_CURSOR",
+              "actionType": 1,
               "managedByScheduler": true,
               "key": "default",
               "count": 1,
@@ -8401,14 +8394,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "PREVIEW_CURSOR",
+              "actionType": 1,
               "managedByScheduler": true,
               "key": "default",
               "count": 1,
@@ -8422,14 +8419,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "PREVIEW_CURSOR",
+              "actionType": 1,
               "managedByScheduler": true,
               "key": "default",
               "count": 1,
@@ -8443,14 +8444,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "PREVIEW_CURSOR",
+              "actionType": 1,
               "managedByScheduler": true,
               "key": "default",
               "count": 1,
@@ -8464,14 +8469,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "PREVIEW_CURSOR",
+              "actionType": 1,
               "managedByScheduler": true,
               "key": "default",
               "count": 1,
@@ -8485,11 +8494,15 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
           ]
         },
@@ -8497,7 +8510,7 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8511,14 +8524,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8532,14 +8549,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8553,14 +8574,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8574,14 +8599,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8595,14 +8624,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8616,11 +8649,15 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
           ]
         },
@@ -8628,7 +8665,7 @@
           "preDelay": 10.0,
           "actions": [
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10112_ymgds_2",
               "count": 3,
@@ -8642,11 +8679,15 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
           ]
         },
@@ -8654,7 +8695,7 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 2,
@@ -8668,14 +8709,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 2,
@@ -8689,14 +8734,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 2,
@@ -8710,14 +8759,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 2,
@@ -8731,14 +8784,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 2,
@@ -8752,14 +8809,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 2,
@@ -8773,14 +8834,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10112_ymgds_2",
               "count": 4,
@@ -8794,14 +8859,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10114_ymgsld_2",
               "count": 2,
@@ -8815,11 +8884,15 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
           ]
         },
@@ -8827,7 +8900,7 @@
           "preDelay": 20.0,
           "actions": [
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8841,14 +8914,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8862,14 +8939,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8883,14 +8964,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8904,14 +8989,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8925,14 +9014,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 1,
@@ -8946,14 +9039,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10112_ymgds_2",
               "count": 3,
@@ -8967,14 +9064,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10114_ymgsld_2",
               "count": 1,
@@ -8988,11 +9089,15 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
           ]
         },
@@ -9000,7 +9105,7 @@
           "preDelay": 25.0,
           "actions": [
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 6,
@@ -9014,14 +9119,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 6,
@@ -9035,14 +9144,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 6,
@@ -9056,14 +9169,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 6,
@@ -9077,14 +9194,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 6,
@@ -9098,14 +9219,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10116_ymgtop_2",
               "count": 6,
@@ -9119,14 +9244,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10112_ymgds_2",
               "count": 4,
@@ -9140,14 +9269,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10114_ymgsld_2",
               "count": 3,
@@ -9161,11 +9294,15 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
           ]
         }
@@ -9180,7 +9317,7 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10111_ymgpck",
               "count": 1,
@@ -9194,14 +9331,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10111_ymgpck",
               "count": 1,
@@ -9215,14 +9356,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10111_ymgpck",
               "count": 1,
@@ -9236,14 +9381,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10111_ymgpck",
               "count": 1,
@@ -9257,14 +9406,18 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
-              "actionType": "SPAWN",
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10111_ymgpck",
               "count": 1,
@@ -9278,13 +9431,20 @@
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ]
+          ],
+          "m_randomActionGroups": null,
+          "m_actionWithRandomSpawn": null,
+          "m_validActionPackKeys": null
         }
       ]
     }
@@ -9297,7 +9457,7 @@
           "row": 5,
           "col": 1
         },
-        "direction": "DOWN",
+        "direction": 2,
         "hidden": false,
         "alias": "trap_252_pckstp#1",
         "uniEquipIds": null,
@@ -9306,7 +9466,7 @@
         "inst": {
           "characterKey": "trap_252_pckstp",
           "level": 1,
-          "phase": "PHASE_0",
+          "phase": 0,
           "favorPoint": 0,
           "potentialRank": 0
         },
@@ -9317,18 +9477,15 @@
         "overrideSkillBlackboard": [
           {
             "key": "attack@branch_id",
-            "value": 0.0,
             "valueStr": "ymgpck_list"
           },
           {
             "key": "attack@action_index",
-            "value": 0.0,
-            "valueStr": null
+            "value": 0.0
           },
           {
             "key": "attack@force",
-            "value": 10.0,
-            "valueStr": null
+            "value": 10.0
           }
         ]
       },
@@ -9337,7 +9494,7 @@
           "row": 5,
           "col": 2
         },
-        "direction": "DOWN",
+        "direction": 2,
         "hidden": false,
         "alias": "trap_252_pckstp#2",
         "uniEquipIds": null,
@@ -9346,7 +9503,7 @@
         "inst": {
           "characterKey": "trap_252_pckstp",
           "level": 1,
-          "phase": "PHASE_0",
+          "phase": 0,
           "favorPoint": 0,
           "potentialRank": 0
         },
@@ -9357,18 +9514,15 @@
         "overrideSkillBlackboard": [
           {
             "key": "attack@branch_id",
-            "value": 0.0,
             "valueStr": "ymgpck_list"
           },
           {
             "key": "attack@action_index",
-            "value": 1.0,
-            "valueStr": null
+            "value": 1.0
           },
           {
             "key": "attack@force",
-            "value": 10.0,
-            "valueStr": null
+            "value": 10.0
           }
         ]
       },
@@ -9377,7 +9531,7 @@
           "row": 5,
           "col": 3
         },
-        "direction": "DOWN",
+        "direction": 2,
         "hidden": false,
         "alias": "trap_252_pckstp#3",
         "uniEquipIds": null,
@@ -9386,7 +9540,7 @@
         "inst": {
           "characterKey": "trap_252_pckstp",
           "level": 1,
-          "phase": "PHASE_0",
+          "phase": 0,
           "favorPoint": 0,
           "potentialRank": 0
         },
@@ -9397,18 +9551,15 @@
         "overrideSkillBlackboard": [
           {
             "key": "attack@branch_id",
-            "value": 0.0,
             "valueStr": "ymgpck_list"
           },
           {
             "key": "attack@action_index",
-            "value": 2.0,
-            "valueStr": null
+            "value": 2.0
           },
           {
             "key": "attack@force",
-            "value": 10.0,
-            "valueStr": null
+            "value": 10.0
           }
         ]
       },
@@ -9417,7 +9568,7 @@
           "row": 5,
           "col": 4
         },
-        "direction": "DOWN",
+        "direction": 2,
         "hidden": false,
         "alias": "trap_252_pckstp#4",
         "uniEquipIds": null,
@@ -9426,7 +9577,7 @@
         "inst": {
           "characterKey": "trap_252_pckstp",
           "level": 1,
-          "phase": "PHASE_0",
+          "phase": 0,
           "favorPoint": 0,
           "potentialRank": 0
         },
@@ -9437,18 +9588,15 @@
         "overrideSkillBlackboard": [
           {
             "key": "attack@branch_id",
-            "value": 0.0,
             "valueStr": "ymgpck_list"
           },
           {
             "key": "attack@action_index",
-            "value": 3.0,
-            "valueStr": null
+            "value": 3.0
           },
           {
             "key": "attack@force",
-            "value": 10.0,
-            "valueStr": null
+            "value": 10.0
           }
         ]
       },
@@ -9457,7 +9605,7 @@
           "row": 5,
           "col": 5
         },
-        "direction": "DOWN",
+        "direction": 2,
         "hidden": false,
         "alias": "trap_252_pckstp#5",
         "uniEquipIds": null,
@@ -9466,7 +9614,7 @@
         "inst": {
           "characterKey": "trap_252_pckstp",
           "level": 1,
-          "phase": "PHASE_0",
+          "phase": 0,
           "favorPoint": 0,
           "potentialRank": 0
         },
@@ -9477,18 +9625,15 @@
         "overrideSkillBlackboard": [
           {
             "key": "attack@branch_id",
-            "value": 0.0,
             "valueStr": "ymgpck_list"
           },
           {
             "key": "attack@action_index",
-            "value": 4.0,
-            "valueStr": null
+            "value": 4.0
           },
           {
             "key": "attack@force",
-            "value": 10.0,
-            "valueStr": null
+            "value": 10.0
           }
         ]
       }
@@ -9505,5 +9650,6 @@
   "excludeCharIdList": null,
   "randomSeed": -1,
   "operaConfig": null,
-  "cameraPlugin": ""
+  "cameraPlugin": "",
+  "runtimeData": null
 }

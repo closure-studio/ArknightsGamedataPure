@@ -20,7 +20,6 @@
       "canUseActivityPotentialItem": false,
       "potentialItemId": "p_char_002_amiya",
       "activityPotentialItemId": null,
-      "classicPotentialItemId": null,
       "nationId": "rhodes",
       "groupId": null,
       "teamId": null,
@@ -49,7 +48,7 @@
       "isNotObtainable": false,
       "isSpChar": false,
       "maxPotentialLevel": 5,
-      "rarity": "TIER_5",
+      "rarity": 4,
       "profession": "WARRIOR",
       "subProfessionId": "artsfghter",
       "trait": null,
@@ -305,7 +304,7 @@
           "levelUpCostCond": [
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 28800,
@@ -329,7 +328,7 @@
             },
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 57600,
@@ -353,7 +352,7 @@
             },
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 86400,
@@ -377,7 +376,7 @@
             }
           ],
           "unlockCond": {
-            "phase": "PHASE_0",
+            "phase": 0,
             "level": 1
           }
         },
@@ -388,7 +387,7 @@
           "levelUpCostCond": [
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 28800,
@@ -412,7 +411,7 @@
             },
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 57600,
@@ -436,7 +435,7 @@
             },
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 86400,
@@ -460,18 +459,17 @@
             }
           ],
           "unlockCond": {
-            "phase": "PHASE_1",
+            "phase": 1,
             "level": 1
           }
         }
       ],
-      "displayTokenDict": null,
       "talents": [
         {
           "candidates": [
             {
               "unlockCondition": {
-                "phase": "PHASE_1",
+                "phase": 1,
                 "level": 1
               },
               "requiredPotentialRank": 0,
@@ -482,21 +480,18 @@
               "blackboard": [
                 {
                   "key": "atk",
-                  "value": 0.04,
-                  "valueStr": null
+                  "value": 0.04
                 },
                 {
                   "key": "def",
-                  "value": 0.04,
-                  "valueStr": null
+                  "value": 0.04
                 }
               ],
-              "tokenKey": null,
               "isHideTalent": false
             },
             {
               "unlockCondition": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "requiredPotentialRank": 0,
@@ -507,16 +502,13 @@
               "blackboard": [
                 {
                   "key": "atk",
-                  "value": 0.07,
-                  "valueStr": null
+                  "value": 0.07
                 },
                 {
                   "key": "def",
-                  "value": 0.07,
-                  "valueStr": null
+                  "value": 0.07
                 }
               ],
-              "tokenKey": null,
               "isHideTalent": false
             }
           ]
@@ -524,7 +516,7 @@
       ],
       "potentialRanks": [
         {
-          "type": "BUFF",
+          "type": 0,
           "description": "生命上限+200",
           "buff": {
             "attributes": {
@@ -535,8 +527,8 @@
               "abnormalComboImmunes": null,
               "attributeModifiers": [
                 {
-                  "attributeType": "MAX_HP",
-                  "formulaItem": "ADDITION",
+                  "attributeType": 0,
+                  "formulaItem": 0,
                   "value": 200.0,
                   "loadFromBlackboard": false,
                   "fetchBaseValueFromSourceEntity": false
@@ -547,7 +539,7 @@
           "equivalentCost": null
         },
         {
-          "type": "BUFF",
+          "type": 0,
           "description": "部署费用-1",
           "buff": {
             "attributes": {
@@ -558,8 +550,8 @@
               "abnormalComboImmunes": null,
               "attributeModifiers": [
                 {
-                  "attributeType": "COST",
-                  "formulaItem": "ADDITION",
+                  "attributeType": 4,
+                  "formulaItem": 0,
                   "value": -1.0,
                   "loadFromBlackboard": false,
                   "fetchBaseValueFromSourceEntity": false
@@ -570,7 +562,7 @@
           "equivalentCost": null
         },
         {
-          "type": "BUFF",
+          "type": 0,
           "description": "攻击力+28",
           "buff": {
             "attributes": {
@@ -581,8 +573,8 @@
               "abnormalComboImmunes": null,
               "attributeModifiers": [
                 {
-                  "attributeType": "ATK",
-                  "formulaItem": "ADDITION",
+                  "attributeType": 1,
+                  "formulaItem": 0,
                   "value": 28.0,
                   "loadFromBlackboard": false,
                   "fetchBaseValueFromSourceEntity": false
@@ -593,7 +585,7 @@
           "equivalentCost": null
         },
         {
-          "type": "BUFF",
+          "type": 0,
           "description": "部署费用-1",
           "buff": {
             "attributes": {
@@ -604,8 +596,8 @@
               "abnormalComboImmunes": null,
               "attributeModifiers": [
                 {
-                  "attributeType": "COST",
-                  "formulaItem": "ADDITION",
+                  "attributeType": 4,
+                  "formulaItem": 0,
                   "value": -1.0,
                   "loadFromBlackboard": false,
                   "fetchBaseValueFromSourceEntity": false
@@ -616,7 +608,7 @@
           "equivalentCost": null
         },
         {
-          "type": "BUFF",
+          "type": 0,
           "description": "防御力+22",
           "buff": {
             "attributes": {
@@ -627,8 +619,8 @@
               "abnormalComboImmunes": null,
               "attributeModifiers": [
                 {
-                  "attributeType": "DEF",
-                  "formulaItem": "ADDITION",
+                  "attributeType": 2,
+                  "formulaItem": 0,
                   "value": 22.0,
                   "loadFromBlackboard": false,
                   "fetchBaseValueFromSourceEntity": false
@@ -706,7 +698,7 @@
       "allSkillLvlup": [
         {
           "unlockCond": {
-            "phase": "PHASE_0",
+            "phase": 0,
             "level": 1
           },
           "lvlUpCost": [
@@ -719,7 +711,7 @@
         },
         {
           "unlockCond": {
-            "phase": "PHASE_0",
+            "phase": 0,
             "level": 1
           },
           "lvlUpCost": [
@@ -737,7 +729,7 @@
         },
         {
           "unlockCond": {
-            "phase": "PHASE_0",
+            "phase": 0,
             "level": 1
           },
           "lvlUpCost": [
@@ -755,7 +747,7 @@
         },
         {
           "unlockCond": {
-            "phase": "PHASE_1",
+            "phase": 1,
             "level": 1
           },
           "lvlUpCost": [
@@ -773,7 +765,7 @@
         },
         {
           "unlockCond": {
-            "phase": "PHASE_1",
+            "phase": 1,
             "level": 1
           },
           "lvlUpCost": [
@@ -791,7 +783,7 @@
         },
         {
           "unlockCond": {
-            "phase": "PHASE_1",
+            "phase": 1,
             "level": 1
           },
           "lvlUpCost": [
@@ -824,7 +816,6 @@
       "canUseActivityPotentialItem": false,
       "potentialItemId": "p_char_002_amiya",
       "activityPotentialItemId": null,
-      "classicPotentialItemId": null,
       "nationId": "rhodes",
       "groupId": null,
       "teamId": null,
@@ -853,22 +844,21 @@
       "isNotObtainable": false,
       "isSpChar": false,
       "maxPotentialLevel": 5,
-      "rarity": "TIER_5",
+      "rarity": 4,
       "profession": "MEDIC",
       "subProfessionId": "incantationmedic",
       "trait": {
         "candidates": [
           {
             "unlockCondition": {
-              "phase": "PHASE_0",
+              "phase": 0,
               "level": 1
             },
             "requiredPotentialRank": 0,
             "blackboard": [
               {
                 "key": "scale",
-                "value": 0.5,
-                "valueStr": null
+                "value": 0.5
               }
             ],
             "overrideDescripton": "攻击造成<@ba.kw>法术伤害</>，攻击敌人时为攻击范围内一名友方干员治疗相当于<@ba.kw>{scale:0%}</>伤害的生命值",
@@ -1129,7 +1119,7 @@
           "levelUpCostCond": [
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 28800,
@@ -1153,7 +1143,7 @@
             },
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 57600,
@@ -1177,7 +1167,7 @@
             },
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 86400,
@@ -1201,7 +1191,7 @@
             }
           ],
           "unlockCond": {
-            "phase": "PHASE_0",
+            "phase": 0,
             "level": 1
           }
         },
@@ -1212,7 +1202,7 @@
           "levelUpCostCond": [
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 28800,
@@ -1236,7 +1226,7 @@
             },
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 57600,
@@ -1260,7 +1250,7 @@
             },
             {
               "unlockCond": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "lvlUpTime": 86400,
@@ -1284,18 +1274,17 @@
             }
           ],
           "unlockCond": {
-            "phase": "PHASE_1",
+            "phase": 1,
             "level": 1
           }
         }
       ],
-      "displayTokenDict": null,
       "talents": [
         {
           "candidates": [
             {
               "unlockCondition": {
-                "phase": "PHASE_1",
+                "phase": 1,
                 "level": 1
               },
               "requiredPotentialRank": 0,
@@ -1306,21 +1295,18 @@
               "blackboard": [
                 {
                   "key": "max_hp",
-                  "value": 0.05,
-                  "valueStr": null
+                  "value": 0.05
                 },
                 {
                   "key": "hp_recovery_per_sec_by_max_hp_ratio",
-                  "value": 0.015,
-                  "valueStr": null
+                  "value": 0.015
                 }
               ],
-              "tokenKey": null,
               "isHideTalent": false
             },
             {
               "unlockCondition": {
-                "phase": "PHASE_2",
+                "phase": 2,
                 "level": 1
               },
               "requiredPotentialRank": 0,
@@ -1331,16 +1317,13 @@
               "blackboard": [
                 {
                   "key": "max_hp",
-                  "value": 0.08,
-                  "valueStr": null
+                  "value": 0.08
                 },
                 {
                   "key": "hp_recovery_per_sec_by_max_hp_ratio",
-                  "value": 0.025,
-                  "valueStr": null
+                  "value": 0.025
                 }
               ],
-              "tokenKey": null,
               "isHideTalent": false
             }
           ]
@@ -1348,7 +1331,7 @@
       ],
       "potentialRanks": [
         {
-          "type": "BUFF",
+          "type": 0,
           "description": "生命上限+200",
           "buff": {
             "attributes": {
@@ -1359,8 +1342,8 @@
               "abnormalComboImmunes": null,
               "attributeModifiers": [
                 {
-                  "attributeType": "MAX_HP",
-                  "formulaItem": "ADDITION",
+                  "attributeType": 0,
+                  "formulaItem": 0,
                   "value": 200.0,
                   "loadFromBlackboard": false,
                   "fetchBaseValueFromSourceEntity": false
@@ -1371,7 +1354,7 @@
           "equivalentCost": null
         },
         {
-          "type": "BUFF",
+          "type": 0,
           "description": "部署费用-1",
           "buff": {
             "attributes": {
@@ -1382,8 +1365,8 @@
               "abnormalComboImmunes": null,
               "attributeModifiers": [
                 {
-                  "attributeType": "COST",
-                  "formulaItem": "ADDITION",
+                  "attributeType": 4,
+                  "formulaItem": 0,
                   "value": -1.0,
                   "loadFromBlackboard": false,
                   "fetchBaseValueFromSourceEntity": false
@@ -1394,7 +1377,7 @@
           "equivalentCost": null
         },
         {
-          "type": "BUFF",
+          "type": 0,
           "description": "攻击力+22",
           "buff": {
             "attributes": {
@@ -1405,8 +1388,8 @@
               "abnormalComboImmunes": null,
               "attributeModifiers": [
                 {
-                  "attributeType": "ATK",
-                  "formulaItem": "ADDITION",
+                  "attributeType": 1,
+                  "formulaItem": 0,
                   "value": 22.0,
                   "loadFromBlackboard": false,
                   "fetchBaseValueFromSourceEntity": false
@@ -1417,7 +1400,7 @@
           "equivalentCost": null
         },
         {
-          "type": "BUFF",
+          "type": 0,
           "description": "部署费用-1",
           "buff": {
             "attributes": {
@@ -1428,8 +1411,8 @@
               "abnormalComboImmunes": null,
               "attributeModifiers": [
                 {
-                  "attributeType": "COST",
-                  "formulaItem": "ADDITION",
+                  "attributeType": 4,
+                  "formulaItem": 0,
                   "value": -1.0,
                   "loadFromBlackboard": false,
                   "fetchBaseValueFromSourceEntity": false
@@ -1440,7 +1423,7 @@
           "equivalentCost": null
         },
         {
-          "type": "BUFF",
+          "type": 0,
           "description": "法术抗性+8",
           "buff": {
             "attributes": {
@@ -1451,8 +1434,8 @@
               "abnormalComboImmunes": null,
               "attributeModifiers": [
                 {
-                  "attributeType": "MAGIC_RESISTANCE",
-                  "formulaItem": "ADDITION",
+                  "attributeType": 3,
+                  "formulaItem": 0,
                   "value": 8.0,
                   "loadFromBlackboard": false,
                   "fetchBaseValueFromSourceEntity": false
@@ -1530,7 +1513,7 @@
       "allSkillLvlup": [
         {
           "unlockCond": {
-            "phase": "PHASE_0",
+            "phase": 0,
             "level": 1
           },
           "lvlUpCost": [
@@ -1543,7 +1526,7 @@
         },
         {
           "unlockCond": {
-            "phase": "PHASE_0",
+            "phase": 0,
             "level": 1
           },
           "lvlUpCost": [
@@ -1561,7 +1544,7 @@
         },
         {
           "unlockCond": {
-            "phase": "PHASE_0",
+            "phase": 0,
             "level": 1
           },
           "lvlUpCost": [
@@ -1579,7 +1562,7 @@
         },
         {
           "unlockCond": {
-            "phase": "PHASE_1",
+            "phase": 1,
             "level": 1
           },
           "lvlUpCost": [
@@ -1597,7 +1580,7 @@
         },
         {
           "unlockCond": {
-            "phase": "PHASE_1",
+            "phase": 1,
             "level": 1
           },
           "lvlUpCost": [
@@ -1615,7 +1598,7 @@
         },
         {
           "unlockCond": {
-            "phase": "PHASE_1",
+            "phase": 1,
             "level": 1
           },
           "lvlUpCost": [
@@ -1644,8 +1627,7 @@
       "conds": [
         {
           "stageId": "main_08-16",
-          "completeState": "PASS",
-          "unlockTs": 0
+          "completeState": 2
         }
       ]
     },
@@ -1653,8 +1635,7 @@
       "conds": [
         {
           "stageId": "main_14-20",
-          "completeState": "PASS",
-          "unlockTs": 0
+          "completeState": 2
         }
       ]
     }
