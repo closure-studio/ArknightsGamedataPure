@@ -1,5 +1,25 @@
 {
   "basicInfo": {
+    "act9switch": {
+      "id": "act9switch",
+      "type": "SWITCH_ONLY",
+      "name": "魔法与友谊合作活动",
+      "startTime": 1783065600,
+      "endTime": 1783886399,
+      "rewardEndTime": 1783886399,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 1,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act4signvs": {
       "id": "act4signvs",
       "type": "CHECKIN_VS",
@@ -6472,6 +6492,13 @@
     }
   },
   "homeActConfig": {
+    "act9switch": {
+      "actId": "act9switch",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "472c6e",
+      "actTopBarText": "魔法与友谊"
+    },
     "act4signvs": {
       "actId": "act4signvs",
       "isPopupAfterCheckin": false,
@@ -185188,6 +185215,137 @@
       }
     },
     "SWITCH_ONLY": {
+      "act9switch": {
+        "constData": {
+          "activityTime": "活动时间：2026年7月3日16:00-2026年7月13日03:59",
+          "activityRule": "全平台PV播放量达到特定值即可解锁对应奖励\r\n达到500,000次可解锁家具-友谊日记\r\n达到2,000,000次可解锁家具-友谊记事板"
+        },
+        "rewards": {
+          "act9switch_reward_50W": [
+            {
+              "id": "furni_littlePony_diary_01",
+              "count": 1,
+              "type": "FURN"
+            },
+            {
+              "id": "3401",
+              "count": 500,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "2003",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          ],
+          "act9switch_reward_200W": [
+            {
+              "id": "furni_littlePony_photoframe_01",
+              "count": 1,
+              "type": "FURN"
+            },
+            {
+              "id": "4001",
+              "count": 50000,
+              "type": "GOLD"
+            },
+            {
+              "id": "2004",
+              "count": 30,
+              "type": "CARD_EXP"
+            }
+          ]
+        },
+        "rewardShowDatas": {
+          "act9switch_reward_50W": {
+            "checkinId": "act9switch_reward_50W",
+            "rewardsTitle": "50",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_littlePony_diary_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "3401",
+                  "count": 500,
+                  "type": "MATERIAL"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2003",
+                  "count": 20,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "act9switch_reward_50W",
+              "mainRewardName": "友谊日记",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_littlePony_diary_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          },
+          "act9switch_reward_200W": {
+            "checkinId": "act9switch_reward_200W",
+            "rewardsTitle": "200",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_littlePony_photoframe_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "4001",
+                  "count": 50000,
+                  "type": "GOLD"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2004",
+                  "count": 30,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "act9switch_reward_200W",
+              "mainRewardName": "友谊记事板",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_littlePony_photoframe_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          }
+        },
+        "apSupplyOutOfDateDict": {},
+        "sortIdDict": {
+          "act9switch_reward_50W": 0,
+          "act9switch_reward_200W": 1
+        }
+      },
       "act8switch": {
         "constData": {
           "activityTime": "活动时间：2026年1月16日16:00-2026年2月6日03:59",
