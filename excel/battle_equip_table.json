@@ -69874,8 +69874,8 @@
         "equipLevel": 1,
         "parts": [
           {
-            "resKey": "almond_equip_1_3_p1",
-            "target": "TRAIT",
+            "resKey": null,
+            "target": "TRAIT_DATA_ONLY",
             "isToken": false,
             "validInGameTag": null,
             "validInMapTag": null,
@@ -77400,7 +77400,7 @@
                 },
                 {
                   "displayRangeId": false,
-                  "upgradeDescription": "治疗其他友方单位时治疗效果提升3%，焰影苇草同时享受60%<@ba.talpu>（+5）</>的治疗量",
+                  "upgradeDescription": "治疗其他友方单位时治疗效果提升3%，焰影苇草同时享受60%<@ba.talpu>（+5%）</>的治疗量",
                   "talentIndex": 1,
                   "validModeIndices": null,
                   "unlockCondition": {
@@ -77513,7 +77513,7 @@
                 },
                 {
                   "displayRangeId": false,
-                  "upgradeDescription": "治疗其他友方单位时治疗效果提升5%，焰影苇草同时享受65%<@ba.talpu>（+5）</>的治疗量",
+                  "upgradeDescription": "治疗其他友方单位时治疗效果提升5%，焰影苇草同时享受65%<@ba.talpu>（+5%）</>的治疗量",
                   "talentIndex": 1,
                   "validModeIndices": null,
                   "unlockCondition": {
@@ -106329,7 +106329,7 @@
               "candidates": [
                 {
                   "displayRangeId": false,
-                  "upgradeDescription": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成伤害时额外造成攻击力 35%的法术伤害",
+                  "upgradeDescription": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成伤害时额外造成攻击力35%的法术伤害",
                   "talentIndex": 0,
                   "validModeIndices": null,
                   "unlockCondition": {
@@ -106420,7 +106420,7 @@
               "candidates": [
                 {
                   "displayRangeId": false,
-                  "upgradeDescription": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成伤害时额外造成攻击力 40%的法术伤害",
+                  "upgradeDescription": "对每个敌人造成首次伤害后，10秒内忍冬对该敌人造成伤害时额外造成攻击力40%的法术伤害",
                   "talentIndex": 0,
                   "validModeIndices": null,
                   "unlockCondition": {
@@ -160327,6 +160327,1277 @@
           {
             "key": "atk",
             "value": 50.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_aphris": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "TRAIT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "部署费用<@ba.kw>减少</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "cost",
+            "value": -8.0
+          },
+          {
+            "key": "max_hp",
+            "value": 120.0
+          },
+          {
+            "key": "atk",
+            "value": 45.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "TRAIT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "部署费用<@ba.kw>减少</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "可以使用一个持续时间35秒的“中继器”，能改变自身的攻击方向，且使该次攻击距离+2；“中继器”在场时，自身攻击力+30%",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "链路协议",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.3
+                    },
+                    {
+                      "key": "cnt",
+                      "value": 1.0
+                    }
+                  ],
+                  "tokenKey": "token_10070_aphris_pc",
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": true,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "-1",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "duration",
+                      "value": 35.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "cost",
+            "value": -8.0
+          },
+          {
+            "key": "max_hp",
+            "value": 165.0
+          },
+          {
+            "key": "atk",
+            "value": 60.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "TRAIT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "部署费用<@ba.kw>减少</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "可以使用一个持续时间35秒的“中继器”，“中继器”再部署时间变短，能改变自身的攻击方向，且使该次攻击距离+2；“中继器”在场时，自身攻击力+35%",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "链路协议",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.35
+                    },
+                    {
+                      "key": "cnt",
+                      "value": 1.0
+                    }
+                  ],
+                  "tokenKey": "token_10070_aphris_pc",
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": true,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "-1",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "duration",
+                      "value": 35.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "cost",
+            "value": -8.0
+          },
+          {
+            "key": "max_hp",
+            "value": 200.0
+          },
+          {
+            "key": "atk",
+            "value": 70.0
+          }
+        ],
+        "tokenAttributeBlackboard": {
+          "token_10070_aphris_pc": [
+            {
+              "key": "respawn_time",
+              "value": -10.0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "uniequip_003_blaze2": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "攻击范围内存在元素损伤爆发的敌人时，技力自然恢复速度+0.2/秒",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "blaze2_equip_2_1_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "sp_recovery_per_sec",
+                      "value": 0.2
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 80.0
+          },
+          {
+            "key": "atk",
+            "value": 58.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "攻击范围内存在元素损伤爆发的敌人时，技力自然恢复速度+0.2/秒",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "blaze2_equip_2_2_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "sp_recovery_per_sec",
+                      "value": 0.2
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "被击倒时倒地并获得6000点<$ba.barrier>屏障</>，倒地期间不能攻击，无法被治疗，每秒回复4%生命，每次受到攻击时对目标造成烛煌攻击力100%的法术伤害和相当于法术伤害20%的<$ba.dt.burning2>灼燃损伤</>；生命回满后复活并使附近的敌人<$ba.stun>晕眩</>5秒，且自身回复4点技力",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "绝处重燃",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.04
+                    },
+                    {
+                      "key": "stun",
+                      "value": 5.0
+                    },
+                    {
+                      "key": "dynamic",
+                      "value": 6000.0
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "被击倒时倒地并获得6000点<$ba.barrier>屏障</>，倒地期间不能攻击，无法被治疗，每秒回复4.5%<@ba.talpu>（+0.5%）</>生命，每次受到攻击时对目标造成烛煌攻击力100%的法术伤害和相当于法术伤害20%的<$ba.dt.burning2>灼燃损伤</>；生命回满后复活并使附近的敌人<$ba.stun>晕眩</>5秒，且自身回复4点技力",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "2",
+                  "name": "绝处重燃",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.045
+                    },
+                    {
+                      "key": "stun",
+                      "value": 5.0
+                    },
+                    {
+                      "key": "dynamic",
+                      "value": 6000.0
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "blaze2_equip_2_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "ep_damage_ratio",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "sp",
+                      "value": 4.0
+                    }
+                  ],
+                  "isHideTalent": true
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "11_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "ep_damage_ratio",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "sp",
+                      "value": 4.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 105.0
+          },
+          {
+            "key": "atk",
+            "value": 72.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "攻击范围内存在元素损伤爆发的敌人时，技力自然恢复速度+0.2/秒",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "blaze2_equip_2_3_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "sp_recovery_per_sec",
+                      "value": 0.2
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "被击倒时倒地并获得6000点<$ba.barrier>屏障</>，倒地期间不能攻击，无法被治疗，每秒回复4%生命，每次受到攻击时对目标造成烛煌攻击力120%的法术伤害和相当于法术伤害30%的<$ba.dt.burning2>灼燃损伤</>；生命回满后复活并使附近的敌人<$ba.stun>晕眩</>5秒，且自身回复8点技力",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "绝处重燃",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.04
+                    },
+                    {
+                      "key": "stun",
+                      "value": 5.0
+                    },
+                    {
+                      "key": "dynamic",
+                      "value": 6000.0
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "被击倒时倒地并获得6000点<$ba.barrier>屏障</>，倒地期间不能攻击，无法被治疗，每秒回复4.5%<@ba.talpu>（+0.5%）</>生命，每次受到攻击时对目标造成烛煌攻击力120%的法术伤害和相当于法术伤害30%的<$ba.dt.burning2>灼燃损伤</>；生命回满后复活并使附近的敌人<$ba.stun>晕眩</>5秒，且自身回复8点技力",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "2",
+                  "name": "绝处重燃",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.045
+                    },
+                    {
+                      "key": "stun",
+                      "value": 5.0
+                    },
+                    {
+                      "key": "dynamic",
+                      "value": 6000.0
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "blaze2_equip_2_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.2
+                    },
+                    {
+                      "key": "ep_damage_ratio",
+                      "value": 0.3
+                    },
+                    {
+                      "key": "sp",
+                      "value": 8.0
+                    }
+                  ],
+                  "isHideTalent": true
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "11_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.2
+                    },
+                    {
+                      "key": "ep_damage_ratio",
+                      "value": 0.3
+                    },
+                    {
+                      "key": "sp",
+                      "value": 8.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 120.0
+          },
+          {
+            "key": "atk",
+            "value": 87.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_003_reed2": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "攻击范围内存在已受伤的友方干员时，自身造成的伤害提升至<@ba.kw>110%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "reed2_equip_2_1_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.1
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 110.0
+          },
+          {
+            "key": "atk",
+            "value": 42.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "攻击范围内存在已受伤的友方干员时，自身造成的伤害提升至<@ba.kw>110%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "reed2_equip_2_2_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.1
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "造成伤害时有30%概率对敌人施加灼痕效果：攻击力-20%、34%的<$ba.magicfragile>【法术脆弱】</>，不可叠加持续7秒",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "灼痕",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.3
+                    },
+                    {
+                      "key": "atk",
+                      "value": -0.2
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.34
+                    },
+                    {
+                      "key": "duration",
+                      "value": 7.0
+                    },
+                    {
+                      "key": "talent@atk",
+                      "value": -0.2
+                    },
+                    {
+                      "key": "talent@damage_scale",
+                      "value": 1.34
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "造成伤害时有30%概率对敌人施加灼痕效果：攻击力-22%<@ba.talpu>（+2%）</>、36%<@ba.talpu>（+2%）</>的<$ba.magicfragile>【法术脆弱】</>，不可叠加持续7秒",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "1",
+                  "name": "灼痕",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.3
+                    },
+                    {
+                      "key": "atk",
+                      "value": -0.22
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.36
+                    },
+                    {
+                      "key": "duration",
+                      "value": 7.0
+                    },
+                    {
+                      "key": "talent@atk",
+                      "value": -0.22
+                    },
+                    {
+                      "key": "talent@damage_scale",
+                      "value": 1.36
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 135.0
+          },
+          {
+            "key": "atk",
+            "value": 54.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "攻击范围内存在已受伤的友方干员时，自身造成的伤害提升至<@ba.kw>110%</>",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "reed2_equip_2_3_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_scale",
+                      "value": 1.1
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "造成伤害时有30%概率对敌人施加灼痕效果：攻击力-20%、38%的<$ba.magicfragile>【法术脆弱】</>，不可叠加持续8秒",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "灼痕",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.3
+                    },
+                    {
+                      "key": "atk",
+                      "value": -0.2
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.38
+                    },
+                    {
+                      "key": "duration",
+                      "value": 8.0
+                    },
+                    {
+                      "key": "talent@atk",
+                      "value": -0.2
+                    },
+                    {
+                      "key": "talent@damage_scale",
+                      "value": 1.38
+                    }
+                  ],
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "造成伤害时有30%概率对敌人施加灼痕效果：攻击力-22%<@ba.talpu>（+2%）</>、40%<@ba.talpu>（+2%）</>的<$ba.magicfragile>【法术脆弱】</>，不可叠加持续8秒",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "1",
+                  "name": "灼痕",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.3
+                    },
+                    {
+                      "key": "atk",
+                      "value": -0.22
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.4
+                    },
+                    {
+                      "key": "duration",
+                      "value": 8.0
+                    },
+                    {
+                      "key": "talent@atk",
+                      "value": -0.22
+                    },
+                    {
+                      "key": "talent@damage_scale",
+                      "value": 1.4
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 155.0
+          },
+          {
+            "key": "atk",
+            "value": 67.0
           }
         ],
         "tokenAttributeBlackboard": {}

@@ -1,5 +1,30 @@
 {
   "basicInfo": {
+    "act21mini": {
+      "id": "act21mini",
+      "type": "MINISTORY",
+      "displayType": "MINISTORY",
+      "name": "丛林症结",
+      "startTime": 1783638000,
+      "endTime": 1784231999,
+      "rewardEndTime": 1784491199,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act21mini",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_21mini_01",
+        "medal_activity_21mini_02"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 0,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act9switch": {
       "id": "act9switch",
       "type": "SWITCH_ONLY",
@@ -7600,6 +7625,7 @@
     }
   },
   "zoneToActivity": {
+    "act21mini_zone1": "act21mini",
     "act24sre_zone1": "act24sre",
     "act24sre_zone2": "act24sre",
     "act1football_zone1": "act1football",
@@ -186270,6 +186296,47 @@
       }
     },
     "MINISTORY": {
+      "act21mini": {
+        "tokenItemId": "act21mini_token_shred",
+        "zoneDescList": {
+          "act21mini_zone1": {
+            "zoneId": "act21mini_zone1",
+            "unlockText": "完成主线关卡1-10解锁"
+          }
+        },
+        "favorUpList": {},
+        "extraDropZoneList": [
+          "main_0",
+          "main_1",
+          "main_2",
+          "main_3",
+          "main_4",
+          "main_5",
+          "main_6",
+          "main_7",
+          "main_8",
+          "main_9",
+          "main_10",
+          "main_11",
+          "main_12",
+          "main_13",
+          "main_14",
+          "act2mainss_zone1",
+          "act3mainss_zone1",
+          "act4mainss_zone1",
+          "weekly_1",
+          "weekly_2",
+          "weekly_3",
+          "weekly_4",
+          "weekly_5",
+          "weekly_6",
+          "weekly_7",
+          "weekly_8",
+          "weekly_9",
+          "weekly_10",
+          "act21mini_zone1"
+        ]
+      },
       "act20mini": {
         "tokenItemId": "act20mini_token_cork",
         "zoneDescList": {
@@ -373517,6 +373584,9 @@
     }
   },
   "activityItems": {
+    "act21mini": [
+      "act21mini_token_shred"
+    ],
     "act24sre": [
       "act24side_melding_1_rep_1",
       "act24side_melding_2_rep_1",
@@ -374343,6 +374413,10 @@
       1587441600,
       1588316400,
       1589486399
+    ],
+    "act21mini": [
+      1783638000,
+      1784231999
     ],
     "act20mini": [
       1773097200,
@@ -382818,6 +382892,22 @@
       ],
       "picGroups": [],
       "startTs": 1782460800
+    },
+    {
+      "id": "dis_mini_21",
+      "type": "ACTIVITY",
+      "funcId": "act21mini",
+      "endTs": 1784231999,
+      "sortId": 155,
+      "itemId": "act21mini_token_shred",
+      "timeNodes": [
+        {
+          "title": "<丛林症结>活动已开放",
+          "ts": 1783638000
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1783638000
     }
   ],
   "actFunData": {
