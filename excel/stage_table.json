@@ -84527,6 +84527,2060 @@
       "isStagePatch": false,
       "mainStageId": "act53side_st01"
     },
+    "act53side_ex01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_st03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_ex01",
+      "levelId": "Activities/act53side/level_act53side_ex01",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-1",
+      "name": "电影防沉迷",
+      "description": "几个看上去已经相当心力交瘁的居民拜托你好好教训教训他们的孩子，自从沉迷在叙拉古黑帮电影里以后，孩子们已经无法无天了！\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": "act53side_ex01#f#",
+      "dangerLevel": "精英1 LV.50",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_ex01",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_ex01#f#",
+      "levelId": "Activities/act53side/level_act53side_ex01",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-1",
+      "name": "电影防沉迷",
+      "description": "<@lv.fs>附加条件：</>\\n我方单位攻击力降低",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_ex01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_ex02",
+      "levelId": "Activities/act53side/level_act53side_ex02",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-2",
+      "name": "邮包流水线",
+      "description": "来体验一下信使分拣各种货物的一天吧？\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": "act53side_ex02#f#",
+      "dangerLevel": "精英1 LV.60",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_ex02",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_ex02#f#",
+      "levelId": "Activities/act53side/level_act53side_ex02",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-2",
+      "name": "邮包流水线",
+      "description": "<@lv.fs>附加条件：</>\\n出现额外敌人",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_ex02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_ex03",
+      "levelId": "Activities/act53side/level_act53side_ex03",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-3",
+      "name": "地下捉迷藏",
+      "description": "几乎每个卡特斯小时候都玩过的捉迷藏：躲进地下错综复杂的兔子洞里，再把显眼的出口用什么东西堵上，嘿嘿......不是，怎么出不去了？\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": "act53side_ex03#f#",
+      "dangerLevel": "精英2 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_ex03",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_ex03#f#",
+      "levelId": "Activities/act53side/level_act53side_ex03",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-3",
+      "name": "地下捉迷藏",
+      "description": "<@lv.fs>附加条件：</>\\n敌人移动速度与生命值提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_ex03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_ex04",
+      "levelId": "Activities/act53side/level_act53side_ex04",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-4",
+      "name": "处处是一撮毛",
+      "description": "不论是信件或是包裹，还是普通的日用品，哪怕只是刚拿在手上还没来得及放进嘴里的零食胡萝卜干，有袋鼷兽们全都要！\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": "act53side_ex04#f#",
+      "dangerLevel": "精英2 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_ex04",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_ex04#f#",
+      "levelId": "Activities/act53side/level_act53side_ex04",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-4",
+      "name": "处处是一撮毛",
+      "description": "<@lv.fs>附加条件：</>\\n出现额外敌人",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_ex04",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_ex05",
+      "levelId": "Activities/act53side/level_act53side_ex05",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-5",
+      "name": "“勒柄嘘混”",
+      "description": "一口下去——其实什么都不会发生，只是会被呛得打喷嚏！\\n<@rolv.rem>本次行动中远程干员可部署于近战位</>\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": "act53side_ex05#f#",
+      "dangerLevel": "精英2 LV.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex05#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_ex05",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_ex05#f#",
+      "levelId": "Activities/act53side/level_act53side_ex05",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-5",
+      "name": "“勒柄嘘混”",
+      "description": "<@lv.fs>附加条件：</>\\n可同时部署人数降低",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_ex05",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_ex06",
+      "levelId": "Activities/act53side/level_act53side_ex06",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-6",
+      "name": "信使？术师！",
+      "description": "刚刚还笑容阳光地把信件递给你的女孩，下一秒可能就会成为动用源石技艺让偷件的小偷飞上半空的强力术师。\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>\\n<@rolv.rem>本次行动投满邮箱后信使安洁莉娜会更大幅度强化</>",
+      "hardStagedId": "act53side_ex06#f#",
+      "dangerLevel": "精英2 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex06#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_ex06",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_ex06#f#",
+      "levelId": "Activities/act53side/level_act53side_ex06",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-6",
+      "name": "信使？术师！",
+      "description": "<@lv.fs>附加条件：</>\\n浮空信件需要受到更多次伤害才会移动位置",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_ex06",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_ex07",
+      "levelId": "Activities/act53side/level_act53side_ex07",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-7",
+      "name": "卡特斯三个窝",
+      "description": "从兔子洞的洞口里能钻出一百个皮塔，一百个巴尼特，一百个梅拉！\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": "act53side_ex07#f#",
+      "dangerLevel": "精英2 LV.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex07#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_ex07",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_ex07#f#",
+      "levelId": "Activities/act53side/level_act53side_ex07",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-7",
+      "name": "卡特斯三个窝",
+      "description": "<@lv.fs>附加条件：</>\\n出现额外敌人",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_ex07",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_ex08",
+      "levelId": "Activities/act53side/level_act53side_ex08",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-8",
+      "name": "有袋鼷兽奇遇",
+      "description": "叽叽叽，嘎嘎嘎，叽叽叽嘎！（今天阳光明媚，微风和煦，我带着满满一口袋的好宝贝，准备再去拿点新的来！）\\n<@rolv.rem>本次行动中远程干员可部署于近战位</>\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": "act53side_ex08#f#",
+      "dangerLevel": "精英2 LV.40",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_dawn",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_ex08#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_ex08",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_ex08#f#",
+      "levelId": "Activities/act53side/level_act53side_ex08",
+      "zoneId": "act53side_zone2",
+      "code": "TO-EX-8",
+      "name": "有袋鼷兽奇遇",
+      "description": "<@lv.fs>附加条件：</>\\n“酣睡飞行员”飞行状态持续时间增加、轰炸间隔缩短",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_dawn",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_ex01"
+    },
+    "act53side_s01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_st03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_s01",
+      "levelId": "Activities/act53side/level_act53side_sub-1-1",
+      "zoneId": "act53side_zone3",
+      "code": "TO-S-1",
+      "name": "邮箱保卫战",
+      "description": "既然通讯塔可以用来晾晒胡萝卜干，那邮箱是不是可以当小型粮仓用用？——喂，不要往里面乱放东西呀！\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": "act53side_s01#f#",
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_s01"
+    },
+    "act53side_s01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_s01",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_s01#f#",
+      "levelId": "Activities/act53side/level_act53side_sub-1-1",
+      "zoneId": "act53side_zone3",
+      "code": "TO-S-1",
+      "name": "邮箱保卫战",
+      "description": "<@lv.fs>附加条件：</>\\n炫目刀技厨师重量增加且额外提升自身周围敌方单位防御力",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_s01"
+    },
+    "act53side_s02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_s01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_s02",
+      "levelId": "Activities/act53side/level_act53side_sub-1-2",
+      "zoneId": "act53side_zone3",
+      "code": "TO-S-2",
+      "name": "通行新选择",
+      "description": "遇到无法跨越的峡谷该怎么办？聪明的雷姆必拓人自会找到办法：乘着间歇泉喷发的水流，从天空中飞过去吧！\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": "act53side_s02#f#",
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_s01"
+    },
+    "act53side_s02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_s02",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_s02#f#",
+      "levelId": "Activities/act53side/level_act53side_sub-1-2",
+      "zoneId": "act53side_zone3",
+      "code": "TO-S-2",
+      "name": "通行新选择",
+      "description": "<@lv.fs>附加条件：</>\\n场上三个位置不可部署",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_s01"
+    },
+    "act53side_s03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_s02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_s03",
+      "levelId": "Activities/act53side/level_act53side_sub-1-3",
+      "zoneId": "act53side_zone3",
+      "code": "TO-S-3",
+      "name": "交通管理员",
+      "description": "今天最累的除了做冰淇淋的店员，就属负责疏散人流的交通管理员了。帮帮他吧，他愿意用一年份的胡萝卜蛋糕作为答谢。\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": "act53side_s03#f#",
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_s01"
+    },
+    "act53side_s03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_s03",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_s03#f#",
+      "levelId": "Activities/act53side/level_act53side_sub-1-3",
+      "zoneId": "act53side_zone3",
+      "code": "TO-S-3",
+      "name": "交通管理员",
+      "description": "<@lv.fs>附加条件：</>\\n出现额外敌人",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_s01"
+    },
+    "act53side_s04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_s03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_s04",
+      "levelId": "Activities/act53side/level_act53side_sub-1-4",
+      "zoneId": "act53side_zone3",
+      "code": "TO-S-4",
+      "name": "“家族聚会”",
+      "description": "叽叽叽叽，嘶咔嘶咔嘶咔，嘎嘎！（孩子们快跟我来，我发现了个又好吃又好玩的好去处！）\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": "act53side_s04#f#",
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_dawn",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_s01"
+    },
+    "act53side_s04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act53side_s04",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act53side_s04#f#",
+      "levelId": "Activities/act53side/level_act53side_sub-1-4",
+      "zoneId": "act53side_zone3",
+      "code": "TO-S-4",
+      "name": "“家族聚会”",
+      "description": "<@lv.fs>附加条件：</>\\n场上三个位置不可部署",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_dawn",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_s01"
+    },
+    "act53side_mo01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act53side_st03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act53side_mo01",
+      "levelId": "Activities/act53side/level_act53side_mo01",
+      "zoneId": "act53side_zone3",
+      "code": "TO-MO-1",
+      "name": "大涌泉镇盛宴",
+      "description": "不论是长耳朵卡特斯，还是短耳朵卡特斯，哪怕是长羽毛的长角的长鳞片的，只要你来到这里，只要你也喜欢冰淇淋、胡萝卜以及温泉，你就是大涌泉镇的客人！\\n<@lv.item><信使安洁莉娜></>协助我方进行战斗。场上存在<浮空信件>会收集<浮空信件>并投递进<邮箱>",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TO_town",
+      "canPractice": false,
+      "canBattleReplay": true,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 5,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act53side_token_photo",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act53side_s01"
+    },
     "act53side_sp01": {
       "stageType": "ACTIVITY",
       "difficulty": "NORMAL",
@@ -84534,7 +86588,7 @@
       "diffGroup": "NONE",
       "unlockCondition": [
         {
-          "stageId": "main_02-08",
+          "stageId": "main_01-10",
           "completeState": 2
         }
       ],
@@ -84596,7 +86650,7 @@
       "diffGroup": "NONE",
       "unlockCondition": [
         {
-          "stageId": "main_02-08",
+          "stageId": "main_01-10",
           "completeState": 2
         }
       ],
@@ -84650,6 +86704,1248 @@
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act53side_sp01"
+    },
+    "act1arkhub_01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_01",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_capture_1",
+      "zoneId": "act1arkhub_zone1",
+      "code": "EE-01",
+      "name": "奇象收录时间！",
+      "description": "奇象生物已经出现，拿起手里的生物扫描仪进行记录，为数据库增添珍奇发现吧！",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_capture",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_02",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_capture_2",
+      "zoneId": "act1arkhub_zone1",
+      "code": "EE-02",
+      "name": "奇象收录时间！",
+      "description": "奇象生物已经出现，拿起手里的生物扫描仪进行记录，为数据库增添珍奇发现吧！",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_capture",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_03",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_solo_1_1",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-S01",
+      "name": "奇象拟合对战场",
+      "description": "究竟是奇术生物技高一筹，是百变生物更具实力，还是本能生物勇冠全场呢？一切都将在拟合的对战场上揭晓。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_04",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_solo_1_2",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-S02",
+      "name": "奇象拟合对战场",
+      "description": "究竟是奇术生物技高一筹，是百变生物更具实力，还是本能生物勇冠全场呢？一切都将在拟合的对战场上揭晓。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_05",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_solo_1_3",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-S03",
+      "name": "奇象拟合对战场",
+      "description": "究竟是奇术生物技高一筹，是百变生物更具实力，还是本能生物勇冠全场呢？一切都将在拟合的对战场上揭晓。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_06",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_solo_3_1",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-S01",
+      "name": "奇象拟合对战场",
+      "description": "究竟是奇术生物技高一筹，是百变生物更具实力，还是本能生物勇冠全场呢？一切都将在拟合的对战场上揭晓。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_07",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_solo_3_2",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-S02",
+      "name": "奇象拟合对战场",
+      "description": "究竟是奇术生物技高一筹，是百变生物更具实力，还是本能生物勇冠全场呢？一切都将在拟合的对战场上揭晓。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_08",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_solo_3_3",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-S03",
+      "name": "奇象拟合对战场",
+      "description": "究竟是奇术生物技高一筹，是百变生物更具实力，还是本能生物勇冠全场呢？一切都将在拟合的对战场上揭晓。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_09": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_09",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_brawl_1",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-M01",
+      "name": "奇象拟合对战场",
+      "description": "这里模拟的是最混乱也最有趣的生态环境，珍奇的生物投影齐聚场地之中，这场乱战将成为展会的焦点。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_10": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_10",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_brawl_2",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-M02",
+      "name": "奇象拟合对战场",
+      "description": "这里模拟的是最混乱也最有趣的生态环境，珍奇的生物投影齐聚场地之中，这场乱战将成为展会的焦点。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_11": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_11",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_brawl_3",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-M03",
+      "name": "奇象拟合对战场",
+      "description": "这里模拟的是最混乱也最有趣的生态环境，珍奇的生物投影齐聚场地之中，这场乱战将成为展会的焦点。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_12": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_12",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_capture_3",
+      "zoneId": "act1arkhub_zone1",
+      "code": "EE-03",
+      "name": "奇象收录时间！",
+      "description": "奇象生物已经出现，拿起手里的生物扫描仪进行记录，为数据库增添珍奇发现吧！",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_capture",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_13": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_13",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_capture_4",
+      "zoneId": "act1arkhub_zone1",
+      "code": "EE-04",
+      "name": "奇象收录时间！",
+      "description": "奇象生物已经出现，拿起手里的生物扫描仪进行记录，为数据库增添珍奇发现吧！",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_capture",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_14": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_14",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_capture_5",
+      "zoneId": "act1arkhub_zone1",
+      "code": "EE-05",
+      "name": "奇象收录时间！",
+      "description": "奇象生物已经出现，拿起手里的生物扫描仪进行记录，为数据库增添珍奇发现吧！",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_capture",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_15": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_15",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_capture_6",
+      "zoneId": "act1arkhub_zone1",
+      "code": "EE-01",
+      "name": "奇象收录时间！",
+      "description": "奇象生物已经出现，拿起手里的生物扫描仪进行记录，为数据库增添珍奇发现吧！",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_capture",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_16": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_16",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_solo_3_4",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-S01",
+      "name": "奇象拟合对战场",
+      "description": "究竟是奇术生物技高一筹，是百变生物更具实力，还是本能生物勇冠全场呢？一切都将在拟合的对战场上揭晓。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_17": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_17",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_solo_3_5",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-S02",
+      "name": "奇象拟合对战场",
+      "description": "究竟是奇术生物技高一筹，是百变生物更具实力，还是本能生物勇冠全场呢？一切都将在拟合的对战场上揭晓。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
+    },
+    "act1arkhub_18": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "act1arkhub_18",
+      "levelId": "Activities/ACT1ARKHUB/level_act1arkhub_solo_3_6",
+      "zoneId": "act1arkhub_zone1",
+      "code": "ECB-S03",
+      "name": "奇象拟合对战场",
+      "description": "究竟是奇术生物技高一筹，是百变生物更具实力，还是本能生物勇冠全场呢？一切都将在拟合的对战场上揭晓。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_arkdex_battle_1",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1arkhub_01"
     },
     "act21mini_01": {
       "stageType": "ACTIVITY",
@@ -333936,6 +337232,678 @@
       "isStagePatch": false,
       "mainStageId": null
     },
+    "lt_21_01": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_01",
+      "levelId": "Obt/Legion/LT21/level_lt21_01",
+      "zoneId": "tower_n_21",
+      "code": "LT-1",
+      "name": "铁锈闸口",
+      "description": "<color=#FF4200>初始危险等级：0\\n</color>废弃园区的入口已经看不出曾经的样貌，只有失去了理智的守卫，紧握着武器站在弥漫着铁锈味的污浊空气之中。只有战胜他们，才能开始对罪恶进行清算的征程。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
+    "lt_21_02": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_02",
+      "levelId": "Obt/Legion/LT21/level_lt21_02",
+      "zoneId": "tower_n_21",
+      "code": "LT-2",
+      "name": "崩塌通道",
+      "description": "<color=#FF4200>初始危险等级：1\\n</color>散布污染只是这个犯罪组织的初步防御手段，在源石浓度本就超标的废弃建筑之中，感染生物的存在为任务带来了更加棘手的挑战。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
+    "lt_21_03": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_03",
+      "levelId": "Obt/Legion/LT21/level_lt21_03",
+      "zoneId": "tower_n_21",
+      "code": "LT-3",
+      "name": "躁动阶梯",
+      "description": "<color=#FF4200>初始危险等级：2\\n</color>加入了组织的暴徒不仅是维奇科的手下，更是其忠实的信徒。他们的思想，他们的渴望，都已经被疯狂染色。在进一步逼近核心之前，要小心这些人不计后果的反扑行动。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
+    "lt_21_04": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_04",
+      "levelId": "Obt/Legion/LT21/level_lt21_04",
+      "zoneId": "tower_n_21",
+      "code": "LT-4",
+      "name": "扭曲图腾",
+      "description": "<color=#FF4200>初始危险等级：3\\n</color>首领依然潜藏在更靠近园区中心的区域内，但随着这些粗陋的源石图腾出现的频率越来越高，起码队员们能得出判断——自己和虚伪的领袖的距离正越来越近。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
+    "lt_21_05": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_05",
+      "levelId": "Obt/Legion/LT21/level_lt21_05",
+      "zoneId": "tower_n_21",
+      "code": "LT-5",
+      "name": "刺耳供礼",
+      "description": "<color=#FF4200>初始危险等级：4\\n</color>血腥的气味即便在远处也能嗅到，含混不清的颂礼声逐渐增强。离罪孽最深重之处仅有一步之遥，现在的目标，就是跨越这些狂乱的废墟。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
+    "lt_21_06": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_06",
+      "levelId": "Obt/Legion/LT21/level_lt21_06",
+      "zoneId": "tower_n_21",
+      "code": "LT-6",
+      "name": "罪恶终局",
+      "description": "<color=#FF4200>初始危险等级：5\\n</color>那对丑陋的翅膀投下恶意的影子，那张枯干的嘴中流出残暴的话语。无论这个首领做出怎样的抵抗，今天的唯一目标，就是将他的罪恶终结于此。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
+    "lt_21_01_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_01_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_01_ex",
+      "zoneId": "tower_n_21",
+      "code": "LT-1",
+      "name": "铁锈闸口",
+      "description": "<color=#FF4200>初始危险等级：2\\n</color>废弃园区的入口已经看不出曾经的样貌，只有失去了理智的守卫，紧握着武器站在弥漫着铁锈味的污浊空气之中。只有战胜他们，才能开始对罪恶进行清算的征程。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
+    "lt_21_02_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_02_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_02_ex",
+      "zoneId": "tower_n_21",
+      "code": "LT-2",
+      "name": "崩塌通道",
+      "description": "<color=#FF4200>初始危险等级：3\\n</color>散布污染只是这个犯罪组织的初步防御手段，在源石浓度本就超标的废弃建筑之中，感染生物的存在为任务带来了更加棘手的挑战。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
+    "lt_21_03_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_03_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_03_ex",
+      "zoneId": "tower_n_21",
+      "code": "LT-3",
+      "name": "躁动阶梯",
+      "description": "<color=#FF4200>初始危险等级：4\\n</color>加入了组织的暴徒不仅是维奇科的手下，更是其忠实的信徒。他们的思想，他们的渴望，都已经被疯狂染色。在进一步逼近核心之前，要小心这些人不计后果的反扑行动。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
+    "lt_21_04_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_04_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_04_ex",
+      "zoneId": "tower_n_21",
+      "code": "LT-4",
+      "name": "扭曲图腾",
+      "description": "<color=#FF4200>初始危险等级：5\\n</color>首领依然潜藏在更靠近园区中心的区域内，但随着这些粗陋的源石图腾出现的频率越来越高，起码队员们能得出判断——自己和虚伪的领袖的距离正越来越近。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
+    "lt_21_05_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_05_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_05_ex",
+      "zoneId": "tower_n_21",
+      "code": "LT-5",
+      "name": "刺耳供礼",
+      "description": "<color=#FF4200>初始危险等级：6\\n</color>血腥的气味即便在远处也能嗅到，含混不清的颂礼声逐渐增强。离罪孽最深重之处仅有一步之遥，现在的目标，就是跨越这些狂乱的废墟。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
+    "lt_21_06_ex": {
+      "stageType": "CLIMB_TOWER",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [],
+      "stageId": "lt_21_06_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_06_ex",
+      "zoneId": "tower_n_21",
+      "code": "LT-6",
+      "name": "罪恶终局",
+      "description": "<color=#FF4200>初始危险等级：7\\n</color>那对丑陋的翅膀投下恶意的影子，那张枯干的嘴中流出残暴的话语。无论这个首领做出怎样的抵抗，今天的唯一目标，就是将他的罪恶终结于此。",
+      "hardStagedId": null,
+      "dangerLevel": "",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_TW_SC",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [],
+        "displayDetailRewards": []
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": null
+    },
     "lt_01_01": {
       "stageType": "CLIMB_TOWER",
       "difficulty": "NORMAL",
@@ -573457,6 +577425,106 @@
       "startTs": 1785538800,
       "endTs": 1787342399
     },
+    "act53side_ex01": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex01#f#": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex02": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex02#f#": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex03": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex03#f#": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex04": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex04#f#": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex05": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex05#f#": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex06": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex06#f#": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex07": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex07#f#": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex08": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_ex08#f#": {
+      "startTs": 1786176000,
+      "endTs": 1787342399
+    },
+    "act53side_s01": {
+      "startTs": 1786780800,
+      "endTs": 1787342399
+    },
+    "act53side_s01#f#": {
+      "startTs": 1786780800,
+      "endTs": 1787342399
+    },
+    "act53side_s02": {
+      "startTs": 1786780800,
+      "endTs": 1787342399
+    },
+    "act53side_s02#f#": {
+      "startTs": 1786780800,
+      "endTs": 1787342399
+    },
+    "act53side_s03": {
+      "startTs": 1786780800,
+      "endTs": 1787342399
+    },
+    "act53side_s03#f#": {
+      "startTs": 1786780800,
+      "endTs": 1787342399
+    },
+    "act53side_s04": {
+      "startTs": 1786780800,
+      "endTs": 1787342399
+    },
+    "act53side_s04#f#": {
+      "startTs": 1786780800,
+      "endTs": 1787342399
+    },
+    "act53side_mo01": {
+      "startTs": 1786780800,
+      "endTs": 1787342399
+    },
     "act53side_sp01": {
       "startTs": 1785538800,
       "endTs": 1787342399
@@ -573464,6 +577532,78 @@
     "act53side_sp02": {
       "startTs": 1785538800,
       "endTs": 1787342399
+    },
+    "act1arkhub_01": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_02": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_03": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_04": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_05": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_06": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_07": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_08": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_09": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_10": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_11": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_12": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_13": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_14": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_15": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_16": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_17": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
+    },
+    "act1arkhub_18": {
+      "startTs": 1786176000,
+      "endTs": 1788465599
     },
     "act21mini_01": {
       "startTs": 1783638000,

@@ -331163,6 +331163,96 @@
       }
     ]
   },
+  "sktok_healbf": {
+    "skillId": "sktok_healbf",
+    "iconId": "sktok_healbf",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "汲能冲击",
+        "rangeId": "1-1",
+        "description": "使面前一格干员的生命上限+100%",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_healbf",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_healbfa": {
+    "skillId": "sktok_healbfa",
+    "iconId": "sktok_healbf",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "抑制解除",
+        "rangeId": "1-1",
+        "description": "使面前一格干员的生命上限+100%",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_healbfa",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_healbfb": {
+    "skillId": "sktok_healbfb",
+    "iconId": "sktok_healbfb",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "血浆活化",
+        "rangeId": "1-1",
+        "description": "使面前一格干员的生命上限+150%，并立即获得<@ba.kw>1件</>本职业的<@ba.kw>战术装备</>（部署效果无法触发）",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_healbfb",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "max_hp",
+            "value": 1.5
+          }
+        ]
+      }
+    ]
+  },
   "sktok_dhtl_1": {
     "skillId": "sktok_dhtl_1",
     "iconId": "sktok_dhtl",
@@ -352710,6 +352800,159 @@
         "prefabId": "sktok_agmbox_1",
         "duration": 0.0,
         "blackboard": []
+      }
+    ]
+  },
+  "sktok_akbtst": {
+    "skillId": "sktok_akbtst",
+    "iconId": "sktok_crate",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "阻挡路线",
+        "rangeId": null,
+        "description": "设置障碍，改变敌人的行进路线\\n<@ba.rem>如果障碍阻挡了敌人，敌人会破坏此障碍</>",
+        "skillType": 0,
+        "durationType": 0,
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": null,
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_akbtel": {
+    "skillId": "sktok_akbtel",
+    "iconId": "sktok_electric",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "通电！",
+        "rangeId": "x-2",
+        "description": "激活：每<@ba.vup>{interval}</>秒激发电流对经过的敌人造成<@ba.vup>{attack@value}</>点法术伤害，并使其<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
+        "skillType": 0,
+        "durationType": 0,
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_akbtel",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "interval",
+            "value": 2.3
+          },
+          {
+            "key": "attack@value",
+            "value": 25.0
+          },
+          {
+            "key": "attack@sluggish",
+            "value": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_akbtjt": {
+    "skillId": "sktok_akbtjt",
+    "iconId": "sktok_ore",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "脉冲波",
+        "rangeId": "x-1",
+        "description": "向四周喷发脉冲波，对周围所有我方与敌方单位造成<@ba.vup>{value}</>真实伤害。并使特殊敌人获得强化。",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 7,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_akbtjt",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 100.0
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_akbtbd": {
+    "skillId": "sktok_akbtbd",
+    "iconId": "sktok_frosts",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "寒潮",
+        "rangeId": "x-1",
+        "description": "发射一道寒霜冲击波，使周围我方单位陷入<$ba.cold>寒冷</>状态10秒",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_akbtbd",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "cold",
+            "value": 10.0
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_akbowf": {
+    "skillId": "sktok_akbowf",
+    "iconId": "sktok_ballis",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "发射弩箭",
+        "rangeId": "1-1",
+        "description": "向前方射出一支弩箭，对碰到的第一名我方干员造成物理伤害",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_akbowf",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.0
+          }
+        ]
       }
     ]
   }
