@@ -10,10 +10,13 @@
     "isTrainingLevel": true,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": null,
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -1357,8 +1360,8 @@
           "value": -0.9
         },
         {
-          "key": "activity_dependent_ui_plugin_name",
-          "valueStr": "act44side"
+          "key": "ui_plugin_path",
+          "valueStr": "Arts/UI/[UC]BattleCommon/UI_BATTLE_PLUGIN/act44side_battle_ui_plugin.prefab"
         },
         {
           "key": "sp",
@@ -3188,6 +3191,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -3384,6 +3395,14 @@
             "m_value": false
           },
           "attractImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -4634,7 +4653,8 @@
             "key": "attack@force",
             "value": 10.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -4671,7 +4691,8 @@
             "key": "attack@force",
             "value": 10.0
           }
-        ]
+        ],
+        "overrideTalents": null
       }
     ],
     "tokenInsts": [
@@ -4710,7 +4731,8 @@
             "key": "attack@force",
             "value": 8.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -4747,7 +4769,8 @@
             "key": "attack@force",
             "value": 7.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -4784,7 +4807,8 @@
             "key": "attack@force",
             "value": 7.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -4817,7 +4841,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -4850,7 +4875,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -4883,7 +4909,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -4916,7 +4943,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -4949,7 +4977,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -4982,7 +5011,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -5015,7 +5045,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -5048,7 +5079,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -5081,7 +5113,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -5114,7 +5147,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -5147,7 +5181,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -5180,7 +5215,8 @@
             "key": "born_duration",
             "value": 999.0
           }
-        ]
+        ],
+        "overrideTalents": null
       }
     ],
     "characterCards": [
@@ -5219,7 +5255,8 @@
             "key": "attack@force",
             "value": 10.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "hidden": false,
@@ -5251,7 +5288,8 @@
             "key": "attack@force",
             "value": 10.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "hidden": false,
@@ -5283,7 +5321,8 @@
             "key": "attack@force",
             "value": 10.0
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "hidden": false,
@@ -5315,7 +5354,8 @@
             "key": "attack@force",
             "value": 10.0
           }
-        ]
+        ],
+        "overrideTalents": null
       }
     ],
     "tokenCards": []
