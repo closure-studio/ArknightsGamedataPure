@@ -161,7 +161,9 @@ async function processItemTable() {
     for (const [itemId, item] of Object.entries(items)) {
       processed[itemId] = {
         name: item.name,
-        icon: item.iconId
+        icon: item.iconId,
+        description: item.description,
+        rarity: item.rarity
       };
       count++;
     }
